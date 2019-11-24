@@ -27,3 +27,26 @@ sudo chmod +x odoo_install.sh
 ```
 sudo ./odoo_install.sh
 ```
+
+# Execution
+## First run
+```
+source ./venv/bin/activate
+python odoo/odoo-bin -c config.conf --log-level debug
+```
+
+## Update all
+Great idea to run it when update Odoo, update database of each modules.
+```
+python odoo/odoo-bin -c config.conf -d [DATABASE] -u all --log-level debug
+```
+
+## Update module
+```
+python odoo/odoo-bin -c config.conf -d [DATABASE] -u [module] --log-level debug
+```
+
+## Test
+```
+python odoo/odoo-bin -c config.conf -d [DATABASE] -i [module to test] --test-enable --stop-after-init --log-level=test --test-tags [module_name][tags]
+```

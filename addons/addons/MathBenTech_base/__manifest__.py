@@ -59,6 +59,12 @@ MathBenTechBase
         'website_odoo_debranding',
         'website_no_crawler',
 
+        # Server-tools
+        'fetchmail_notify_error_to_sender',
+
+        # Social
+        'mail_debrand',
+
         # Canada
         'l10n_ca',
     ],

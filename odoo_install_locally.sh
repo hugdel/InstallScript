@@ -14,23 +14,25 @@
 # ./odoo-install
 ################################################################################
 
+. ./env_var.sh
+
 OE_USER=$(whoami)
 OE_HOME=$PWD
 OE_HOME_EXT="${OE_HOME}/odoo"
 # The default port where this Odoo instance will run under (provided you use the command -c in the terminal)
 # Set to true if you want to install it, false if you don't need it or have it already installed.
-INSTALL_WKHTMLTOPDF="True"
+#INSTALL_WKHTMLTOPDF="True"
 # Set the default Odoo port (you still have to use -c /etc/odoo-server.conf for example to use this.)
-OE_PORT="8069"
+#OE_PORT="8069"
+#OE_LONGPOLLING_PORT="8072"
 # Choose the Odoo version which you want to install. For example: 12.0, 11.0, 10.0 or saas-18. When using 'master' the master version will be installed.
 # IMPORTANT! This script contains extra libraries that are specifically needed for Odoo 12.0
-OE_VERSION="stable_prod_12.0"
+#OE_VERSION="stable_prod_12.0"
 # set the superadmin password
-OE_SUPERADMIN="admin"
+#OE_SUPERADMIN="admin"
 OE_CONFIG_FILE="${OE_HOME}/config.conf"
 OE_CONFIG="${OE_USER}"
-MINIMAL_ADDONS="True"
-PROD="False"
+MINIMAL_ADDONS="False"
 
 echo -e "* Create server config file"
 
@@ -43,6 +45,7 @@ printf "db_port = False\n" >> ${OE_CONFIG_FILE}
 printf "db_user = ${OE_USER}\n" >> ${OE_CONFIG_FILE}
 printf "db_password = False\n" >> ${OE_CONFIG_FILE}
 printf "xmlrpc_port = ${OE_PORT}\n" >> ${OE_CONFIG_FILE}
+printf "longpolling_port = ${OE_LONGPOLLING_PORT}\n" >> ${OE_CONFIG_FILE}
 
 printf "addons_path = ${OE_HOME_EXT}/addons,${OE_HOME}/addons/addons," >> ${OE_CONFIG_FILE}
 printf "${OE_HOME}/addons/web," >> ${OE_CONFIG_FILE}
@@ -116,10 +119,6 @@ printf "max_cron_threads = 2\n" >> ${OE_CONFIG_FILE}
 printf "; xmlrpc_interface = 127.0.0.1\n" >> ${OE_CONFIG_FILE}
 printf "; netrpc_interface = 127.0.0.1\n" >> ${OE_CONFIG_FILE}
 printf "; proxy_mode = True\n" >> ${OE_CONFIG_FILE}
-if [ $PROD = "True" ]; then
-    echo -e "\n* Updating server config file"
-    printf "logfile = /var/log/${OE_USER}/${OE_CONFIG}.log\n" >> /${OE_USER}/odoo/config.conf
-fi
 
 echo -e "\n---- Create Virtual environment Python ----"
 cd ${OE_HOME}

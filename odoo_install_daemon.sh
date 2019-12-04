@@ -8,23 +8,25 @@
 #-------------------------------------------------------------------------------
 ################################################################################
 
-OE_USER="odoo"
-OE_HOME="/${OE_USER}/odoo"
-OE_HOME_EXT="/${OE_USER}/odoo/odoo/odoo"
-# The default port where this Odoo instance will run under (provided you use the command -c in the terminal)
-# Set to true if you want to install it, false if you don't need it or have it already installed.
-INSTALL_WKHTMLTOPDF="True"
-# Set the default Odoo port (you still have to use -c /etc/odoo-server.conf for example to use this.)
-OE_PORT="8069"
-# set the superadmin password
-OE_SUPERADMIN="admin"
-OE_CONFIG="${OE_USER}"
+. ./env_var.sh
+
+#OE_USER="odoo"
+#OE_HOME="/${OE_USER}/odoo"
+#OE_HOME_EXT="/${OE_USER}/odoo/odoo/odoo"
+## The default port where this Odoo instance will run under (provided you use the command -c in the terminal)
+## Set to true if you want to install it, false if you don't need it or have it already installed.
+#INSTALL_WKHTMLTOPDF="True"
+## Set the default Odoo port (you still have to use -c /etc/odoo-server.conf for example to use this.)
+#OE_PORT="8069"
+## set the superadmin password
+#OE_SUPERADMIN="admin"
+#OE_CONFIG="${OE_USER}"
 
 #--------------------------------------------------
-# Adding ODOO as a deamon (initscript)
+# Adding ODOO as a deamon with SystemD
 #--------------------------------------------------
 echo -e "\n* Create init file"
-sudo rm /tmp/${OE_CONFIG}
+sudo rm -f /tmp/${OE_CONFIG}
 cat <<EOF > /tmp/${OE_CONFIG}
 [Unit]
 Description=${OE_USER}
@@ -56,7 +58,7 @@ echo -e "* Start ODOO on Startup"
 sudo systemctl daemon-reload
 sudo systemctl enable ${OE_CONFIG}.service
 
-sudo su ${OE_USER} -c "sudo rm /tmp/${OE_USER}run.sh"
+sudo su ${OE_USER} -c "sudo rm -f /tmp/${OE_USER}run.sh"
 cat <<EOF > /tmp/${OE_USER}run.sh
 #!/usr/bin/env bash
 cd ${OE_HOME}
@@ -72,6 +74,7 @@ sudo chown ${OE_USER}: ${OE_HOME}/venv/run.sh
 echo "-----------------------------------------------------------"
 echo "Done! The Odoo server is up and running. Specifications:"
 echo "Port: ${OE_PORT}"
+echo "Port Long Polling: ${OE_LONGPOLLING_PORT}"
 echo "User service: ${OE_USER}"
 echo "User PostgreSQL: ${OE_USER}"
 echo "Code location: ${OE_USER}"

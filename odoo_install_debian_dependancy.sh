@@ -8,10 +8,12 @@
 #-------------------------------------------------------------------------------
 ################################################################################
 
+. ./env_var.sh
+
 OE_USER=$(whoami)
 # The default port where this Odoo instance will run under (provided you use the command -c in the terminal)
 # Set to true if you want to install it, false if you don't need it or have it already installed.
-INSTALL_WKHTMLTOPDF="True"
+#INSTALL_WKHTMLTOPDF="True"
 
 ##
 ###  WKHTMLTOPDF download links
@@ -58,17 +60,20 @@ sudo npm install -g rtlcss
 # Install Wkhtmltopdf if needed
 #--------------------------------------------------
 if [ $INSTALL_WKHTMLTOPDF = "True" ]; then
-  echo -e "\n---- Install wkhtml and place shortcuts on correct place for ODOO 12 ----"
-  #pick up correct one from x64 & x32 versions:
-  if [ "`getconf LONG_BIT`" == "64" ];then
-      _url=$WKHTMLTOX_X64
-  else
-      _url=$WKHTMLTOX_X32
+  INSTALLED=$(dpkg -s wkhtmltox|grep installed)
+  if [ "" == "${INSTALLED}" ]; then
+      echo -e "\n---- Install wkhtml and place shortcuts on correct place for ODOO 12 ----"
+      #pick up correct one from x64 & x32 versions:
+      if [ "`getconf LONG_BIT`" == "64" ];then
+          _url=$WKHTMLTOX_X64
+      else
+          _url=$WKHTMLTOX_X32
+      fi
+      sudo wget $_url
+      sudo gdebi --n `basename $_url`
+      sudo ln -s /usr/local/bin/wkhtmltopdf /usr/bin
+      sudo ln -s /usr/local/bin/wkhtmltoimage /usr/bin
   fi
-  sudo wget $_url
-  sudo gdebi --n `basename $_url`
-  sudo ln -s /usr/local/bin/wkhtmltopdf /usr/bin
-  sudo ln -s /usr/local/bin/wkhtmltoimage /usr/bin
 else
   echo "Wkhtmltopdf isn't installed due to the choice of the user!"
 fi

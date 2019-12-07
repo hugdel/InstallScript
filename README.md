@@ -50,3 +50,8 @@ python odoo/odoo-bin -c config.conf -d [DATABASE] -u [module] --log-level debug
 ```
 python odoo/odoo-bin -c config.conf -d [DATABASE] -i [module to test] --test-enable --stop-after-init --log-level=test --test-tags [module_name][tags]
 ```
+
+# Production
+```
+python odoo/odoo-bin -c config.conf -d [DATABASE] --no-database-list
+```

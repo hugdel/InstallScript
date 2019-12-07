@@ -1,0 +1,189 @@
+[submodule "odoo"]
+	path = odoo
+	url = https://github.com/MathBenTech/odoo.git
+[submodule "addons/development"]
+	path = addons/development
+	url = https://github.com/MathBenTech/development.git
+[submodule "addons/odoo-business-spending-management-quebec-canada"]
+	path = addons/odoo-business-spending-management-quebec-canada
+	url = https://gitlab.com/mathbentech/odoo-business-spending-management-quebec-canada.git
+[submodule "addons/smile_addons"]
+	path = addons/smile_addons
+	url = https://github.com/MathBenTech/odoo_addons.git
+[submodule "addons/multi-company"]
+	path = addons/multi-company
+	url = https://github.com/MathBenTech/multi-company.git
+[submodule "addons/website"]
+	path = addons/website
+	url = https://github.com/MathBenTech/website.git
+[submodule "addons/web"]
+	path = addons/web
+	url = https://github.com/MathBenTech/web.git
+[submodule "addons/timesheet"]
+	path = addons/timesheet
+	url = https://github.com/MathBenTech/timesheet.git
+[submodule "addons/sale-workflow"]
+	path = addons/sale-workflow
+	url = https://github.com/MathBenTech/sale-workflow.git
+[submodule "addons/social"]
+	path = addons/social
+	url = https://github.com/MathBenTech/social.git
+[submodule "addons/server-ux"]
+	path = addons/server-ux
+	url = https://github.com/MathBenTech/server-ux.git
+[submodule "addons/server-tools"]
+	path = addons/server-tools
+	url = https://github.com/MathBenTech/server-tools.git
+[submodule "addons/server-env"]
+	path = addons/server-env
+	url = https://github.com/MathBenTech/server-env.git
+[submodule "addons/server-brand"]
+	path = addons/server-brand
+	url = https://github.com/MathBenTech/server-brand.git
+[submodule "addons/server-auth"]
+	path = addons/server-auth
+	url = https://github.com/MathBenTech/server-auth.git
+[submodule "addons/reporting-engine"]
+	path = addons/reporting-engine
+	url = https://github.com/MathBenTech/reporting-engine.git
+[submodule "addons/product-variant"]
+	path = addons/product-variant
+	url = https://github.com/MathBenTech/product-variant.git
+[submodule "addons/queue"]
+	path = addons/queue
+	url = https://github.com/MathBenTech/queue.git
+[submodule "addons/purchase-workflow"]
+	path = addons/purchase-workflow
+	url = https://github.com/MathBenTech/purchase-workflow.git
+[submodule "addons/project-reporting"]
+	path = addons/project-reporting
+	url = https://github.com/MathBenTech/project-reporting.git
+[submodule "addons/project"]
+	path = addons/project
+	url = https://github.com/MathBenTech/project.git
+[submodule "addons/product-attribute"]
+	path = addons/product-attribute
+	url = https://github.com/MathBenTech/product-attribute.git
+[submodule "addons/pos"]
+	path = addons/pos
+	url = https://github.com/MathBenTech/pos.git
+[submodule "addons/partner-contact"]
+	path = addons/partner-contact
+	url = https://github.com/MathBenTech/partner-contact.git
+[submodule "addons/mis-builder"]
+	path = addons/mis-builder
+	url = https://github.com/MathBenTech/mis-builder.git
+[submodule "addons/margin-analysis"]
+	path = addons/margin-analysis
+	url = https://github.com/MathBenTech/margin-analysis.git
+[submodule "addons/management-system"]
+	path = addons/management-system
+	url = https://github.com/MathBenTech/management-system.git
+[submodule "addons/manufacture"]
+	path = addons/manufacture
+	url = https://github.com/MathBenTech/manufacture.git
+[submodule "addons/connector-telephony"]
+	path = addons/connector-telephony
+	url = https://github.com/MathBenTech/connector-telephony.git
+[submodule "addons/business-requirement"]
+	path = addons/business-requirement
+	url = https://github.com/MathBenTech/business-requirement.git
+[submodule "addons/bank-statement-import"]
+	path = addons/bank-statement-import
+	url = https://github.com/MathBenTech/bank-statement-import.git
+[submodule "addons/bank-payment"]
+	path = addons/bank-payment
+	url = https://github.com/MathBenTech/bank-payment.git
+[submodule "addons/apps-store"]
+	path = addons/apps-store
+	url = https://github.com/MathBenTech/apps-store.git
+[submodule "addons/account-reconcile"]
+	path = addons/account-reconcile
+	url = https://github.com/MathBenTech/account-reconcile.git
+[submodule "addons/account-payment"]
+	path = addons/account-payment
+	url = https://github.com/MathBenTech/account-payment.git
+[submodule "addons/account-invoicing"]
+	path = addons/account-invoicing
+	url = https://github.com/MathBenTech/account-invoicing.git
+[submodule "addons/account-invoice-reporting"]
+	path = addons/account-invoice-reporting
+	url = https://github.com/MathBenTech/account-invoice-reporting.git
+[submodule "addons/account-fiscal-rule"]
+	path = addons/account-fiscal-rule
+	url = https://github.com/MathBenTech/account-fiscal-rule.git
+[submodule "addons/account-financial-tools"]
+	path = addons/account-financial-tools
+	url = https://github.com/MathBenTech/account-financial-tools.git
+[submodule "addons/account-financial-reporting"]
+	path = addons/account-financial-reporting
+	url = https://github.com/MathBenTech/account-financial-reporting.git
+[submodule "addons/account-consolidation"]
+	path = addons/account-consolidation
+	url = https://github.com/MathBenTech/account-consolidation.git
+[submodule "addons/account-closing"]
+	path = addons/account-closing
+	url = https://github.com/MathBenTech/account-closing.git
+[submodule "addons/account-budgeting"]
+	path = addons/account-budgeting
+	url = https://github.com/MathBenTech/account-budgeting.git
+[submodule "addons/wms"]
+	path = addons/wms
+	url = https://github.com/MathBenTech/wms.git
+[submodule "addons/product-pack"]
+	path = addons/product-pack
+	url = https://github.com/MathBenTech/product-pack.git
+[submodule "addons/brand"]
+	path = addons/brand
+	url = https://github.com/MathBenTech/brand.git
+[submodule "addons/account-analytic"]
+	path = addons/account-analytic
+	url = https://github.com/MathBenTech/account-analytic.git
+[submodule "addons/openeducat_erp"]
+	path = addons/openeducat_erp
+	url = https://github.com/MathBenTech/openeducat_erp.git
+[submodule "addons/muk_web"]
+	path = addons/muk_web
+	url = https://github.com/MathBenTech/muk_web.git
+[submodule "addons/maintenance"]
+	path = addons/maintenance
+	url = https://github.com/MathBenTech/maintenance.git
+[submodule "addons/l10n-canada"]
+	path = addons/l10n-canada
+	url = https://github.com/MathBenTech/l10n-canada.git
+[submodule "addons/knowledge"]
+	path = addons/knowledge
+	url = https://github.com/MathBenTech/knowledge.git
+[submodule "addons/hr"]
+	path = addons/hr
+	url = https://github.com/MathBenTech/hr.git
+[submodule "addons/helpdesk"]
+	path = addons/helpdesk
+	url = https://github.com/MathBenTech/helpdesk.git
+[submodule "addons/event"]
+	path = addons/event
+	url = https://github.com/MathBenTech/event.git
+[submodule "addons/e-commerce"]
+	path = addons/e-commerce
+	url = https://github.com/MathBenTech/e-commerce.git
+[submodule "addons/donation"]
+	path = addons/donation
+	url = https://github.com/MathBenTech/donation.git
+[submodule "addons/data-protection"]
+	path = addons/data-protection
+	url = https://github.com/MathBenTech/data-protection.git
+[submodule "addons/currency"]
+	path = addons/currency
+	url = https://github.com/MathBenTech/currency.git
+[submodule "addons/credit-control"]
+	path = addons/credit-control
+	url = https://github.com/MathBenTech/credit-control.git
+[submodule "addons/contract"]
+	path = addons/contract
+	url = https://github.com/MathBenTech/contract.git
+[submodule "addons/commission"]
+	path = addons/commission
+	url = https://github.com/MathBenTech/commission.git
+[submodule "addons/muk_base"]
+	path = addons/muk_base
+	url = https://github.com/MathBenTech/muk_base.git

@@ -2,3 +2,7 @@
 *.swp
 *.tmp
 *.bak
+.idea
+venv
+*.log
+config.conf

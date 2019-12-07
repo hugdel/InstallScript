@@ -56,10 +56,14 @@ echo -e "\n---- Installing nodeJS NPM and rtlcss for LTR support ----"
 sudo apt-get install nodejs npm -y
 sudo npm install -g rtlcss
 
+if [ ${INSTALL_NGINX} = "True" ]; then
+    sudo apt install nginx -y
+fi
+
 #--------------------------------------------------
 # Install Wkhtmltopdf if needed
 #--------------------------------------------------
-if [ $INSTALL_WKHTMLTOPDF = "True" ]; then
+if [ ${INSTALL_WKHTMLTOPDF} = "True" ]; then
   INSTALLED=$(dpkg -s wkhtmltox|grep installed)
   if [ "" == "${INSTALLED}" ]; then
       echo -e "\n---- Install wkhtml and place shortcuts on correct place for ODOO 12 ----"
@@ -69,8 +73,8 @@ if [ $INSTALL_WKHTMLTOPDF = "True" ]; then
       else
           _url=$WKHTMLTOX_X32
       fi
-      sudo wget $_url
-      sudo gdebi --n `basename $_url`
+      sudo wget ${_url}
+      sudo gdebi --n `basename ${_url}`
       sudo ln -s /usr/local/bin/wkhtmltopdf /usr/bin
       sudo ln -s /usr/local/bin/wkhtmltoimage /usr/bin
   fi

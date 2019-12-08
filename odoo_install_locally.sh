@@ -33,6 +33,7 @@ OE_HOME_EXT="${OE_HOME}/odoo"
 OE_CONFIG_FILE="${OE_HOME}/config.conf"
 OE_CONFIG="${OE_USER}"
 MINIMAL_ADDONS="False"
+#INSTALL_NGINX="True"
 
 echo -e "* Create server config file"
 
@@ -116,9 +117,12 @@ printf "\n" >> ${OE_CONFIG_FILE}
 
 printf "workers = 0\n" >> ${OE_CONFIG_FILE}
 printf "max_cron_threads = 2\n" >> ${OE_CONFIG_FILE}
-printf "; xmlrpc_interface = 127.0.0.1\n" >> ${OE_CONFIG_FILE}
-printf "; netrpc_interface = 127.0.0.1\n" >> ${OE_CONFIG_FILE}
-printf "; proxy_mode = True\n" >> ${OE_CONFIG_FILE}
+
+if [ ${INSTALL_NGINX} = "True" ]; then
+    printf "xmlrpc_interface = 127.0.0.1\n" >> ${OE_CONFIG_FILE}
+    printf "netrpc_interface = 127.0.0.1\n" >> ${OE_CONFIG_FILE}
+    printf "proxy_mode = True\n" >> ${OE_CONFIG_FILE}
+fi
 
 echo -e "\n---- Create Virtual environment Python ----"
 cd ${OE_HOME}
@@ -134,6 +138,6 @@ ${OE_HOME}/venv/bin/pip3 install phonenumbers
 echo -e "\n---- Install Odoo with addons module ----"
 git submodule update --init
 
-echo -e "\n---- Add link dependancy in site-packages of Python ----"
+echo -e "\n---- Add link dependency in site-packages of Python ----"
 ln -fs ${OE_HOME_EXT}/odoo ${OE_HOME}/venv/lib/python3.7/site-packages/
 ln -fs ${OE_HOME_EXT}/odoo ${OE_HOME}/venv/lib/python3.6/site-packages/

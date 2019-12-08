@@ -41,8 +41,8 @@ User=${OE_USER}
 Group=${OE_USER}
 Restart=always
 RestartSec=5
-PIDFile=${OE_HOME}/venv/service.pid
-ExecStart=${OE_HOME}/venv/run.sh
+PIDFile=${OE_HOME_ODOO}/venv/service.pid
+ExecStart=${OE_HOME_ODOO}/venv/run.sh
 StandardOutput=journal+console
 
 [Install]
@@ -61,15 +61,15 @@ sudo systemctl enable ${OE_CONFIG}.service
 sudo su ${OE_USER} -c "sudo rm -f /tmp/${OE_USER}run.sh"
 cat <<EOF > /tmp/${OE_USER}run.sh
 #!/usr/bin/env bash
-cd ${OE_HOME}
+cd ${OE_HOME_ODOO}
 source ./venv/bin/activate
-python3 ${OE_HOME}/odoo/odoo-bin -c ${OE_HOME}/config.conf
+python3 ${OE_HOME_ODOO}/odoo/odoo-bin -c ${OE_HOME_ODOO}/config.conf
 EOF
 
 echo -e "* Security Run File"
-sudo cp /tmp/${OE_USER}run.sh ${OE_HOME}/venv/run.sh
-sudo chmod 755 ${OE_HOME}/venv/run.sh
-sudo chown ${OE_USER}: ${OE_HOME}/venv/run.sh
+sudo cp /tmp/${OE_USER}run.sh ${OE_HOME_ODOO}/venv/run.sh
+sudo chmod 755 ${OE_HOME_ODOO}/venv/run.sh
+sudo chown ${OE_USER}: ${OE_HOME_ODOO}/venv/run.sh
 
 echo "-----------------------------------------------------------"
 echo "Done! The Odoo server is up and running. Specifications:"

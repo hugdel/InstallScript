@@ -16,7 +16,7 @@ echo  "\n---- Install PostgreSQL Server ----"
 brew install postgresql
 
 echo  "\n---- Creating the ODOO PostgreSQL User  ----"
-sudo su - postgres -c "createuser -s $OE_USER" 2> /dev/null || true
+sudo su - postgres -c "createuser -s ${OE_USER}" 2> /dev/null || true
 
 #--------------------------------------------------
 # Install Dependencies
@@ -49,4 +49,4 @@ fi
 #       ln -s ~/.pyenv/versions/3.6.9/bin/python3.6 /usr/local/bin/python3
 # ===============================================================================================
 echo  "\n---- Installing venv if not already existing (rm -r venv if already exists) ----"
-  ~/.pyenv/versions/3.6.9/bin/python3.6 -m venv venv
+~/.pyenv/versions/3.6.9/bin/python3.6 -m venv venv

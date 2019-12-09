@@ -187,3 +187,6 @@
 [submodule "addons/muk_base"]
 	path = addons/muk_base
 	url = https://github.com/MathBenTech/muk_base.git
+[submodule "addons/quotation-revision"]
+	path = addons/quotation-revision
+	url = https://github.com/MathBenTech/QuotationRevision.git

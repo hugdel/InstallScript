@@ -1,13 +1,13 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
 {
-    'name': 'MathBenTechBase',
+    'name': 'MathBenTech base enterprise',
     'version': '0.1',
     'author': "MathBenTech",
     'website': 'https://mathben.tech',
     'license': 'AGPL-3',
     'category': 'Human Resources',
-    'summary': 'INSTALL my base',
+    'summary': 'INSTALL my base enterprise',
     'description': """
 MathBenTechBase
 ===============
@@ -15,6 +15,8 @@ MathBenTechBase
 """,
     'depends': [
         # Custom MathBenTech
+        'mathbentech_base',
+
         'hr_expense_associate_with_customer',
         'hr_expense_tip',
 
@@ -22,6 +24,8 @@ MathBenTechBase
         'account',
 
         'board',
+
+        'contacts',
 
         'crm',
 
@@ -46,24 +50,8 @@ MathBenTechBase
         'stock',
 
         # OCA
-        'web_responsive',
         'website_form_builder',
-        'website_odoo_debranding',
         'website_snippet_anchor',
-
-        # OCA server-brand
-        'disable_odoo_online',
-        'remove_odoo_enterprise',
-
-        # OCA website
-        'website_odoo_debranding',
-        'website_no_crawler',
-
-        # Server-tools
-        'fetchmail_notify_error_to_sender',
-
-        # Social
-        'mail_debrand',
 
         # Canada
         'l10n_ca',

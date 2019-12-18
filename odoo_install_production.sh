@@ -128,9 +128,9 @@ server {
 }
 EOF
 
-  sudo mv /tmp/nginx${OE_USER} /etc/nginx/sites-available/${WEBSITE_NAME}
+  sudo mv -f /tmp/nginx${OE_USER} /etc/nginx/sites-available/${WEBSITE_NAME}
   sudo ln -fs /etc/nginx/sites-available/${WEBSITE_NAME} /etc/nginx/sites-enabled/${WEBSITE_NAME}
-  sudo rm -f /etc/nginx/sites-enabled/default
+  sudo rm -f /etc/nginx/sites-enabled/default /etc/nginx/sites-available/default
   sudo systemctl restart nginx
   echo "Done! The Nginx server is up and running. Configuration can be found at /etc/nginx/sites-enabled/${WEBSITE_NAME}"
   echo "Run manually certbot : sudo certbot --nginx"

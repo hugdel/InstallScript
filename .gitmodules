@@ -190,3 +190,6 @@
 [submodule "addons/quotation-revision"]
 	path = addons/quotation-revision
 	url = https://github.com/MathBenTech/QuotationRevision.git
+[submodule "addons/scrummer"]
+	path = addons/scrummer
+	url = https://github.com/MathBenTech/scrummer.git

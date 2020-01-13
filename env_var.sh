@@ -20,7 +20,7 @@ OE_PORT="8069"
 OE_LONGPOLLING_PORT="8072"
 # set the superadmin password
 OE_SUPERADMIN="admin"
-OE_VERSION="stable_prod_12.0"
+OE_VERSION="11.0"
 OE_CONFIG="${OE_USER}"
 MINIMAL_ADDONS="False"
 # Set this to True if you want to install Nginx!

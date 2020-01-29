@@ -57,6 +57,7 @@ MathBenTechBase
         'l10n_ca',
 
         # Scrummer
+        'project_agile_sale_timesheet',
         'scrummer',
         'scrummer_kanban',
         'scrummer_scrum',

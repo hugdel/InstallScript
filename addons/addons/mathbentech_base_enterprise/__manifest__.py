@@ -20,6 +20,8 @@ MathBenTechBase
         'hr_expense_associate_with_customer',
         'hr_expense_tip',
 
+        'sale_order_line_limit',
+
         # Odoo base
         'account',
 

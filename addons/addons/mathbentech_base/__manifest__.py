@@ -31,6 +31,9 @@ MathBenTechBase
 
         # Social
         'mail_debrand',
+
+        # Partner
+        'partner_quebec_tz',
     ],
     'data': [],
     'installable': True,

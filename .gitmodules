@@ -193,3 +193,6 @@
 [submodule "addons/scrummer"]
 	path = addons/scrummer
 	url = https://github.com/MathBenTech/scrummer.git
+[submodule "addons/odoo-partner-addons"]
+	path = addons/odoo-partner-addons
+	url = https://github.com/MathBenTech/odoo-partner-addons.git

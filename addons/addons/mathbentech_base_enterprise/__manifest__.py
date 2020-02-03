@@ -54,6 +54,7 @@ MathBenTechBase
         # OCA
         'website_form_builder',
         'website_snippet_anchor',
+        'partner_no_vat',
 
         # Canada
         'l10n_ca',

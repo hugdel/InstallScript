@@ -22,6 +22,8 @@ MathBenTechBase
 
         'sale_order_line_limit',
 
+        'configure_quebec_tax',
+
         # Odoo base
         'account',
 

@@ -20,6 +20,10 @@ MathBenTechBase
         'hr_expense_associate_with_customer',
         'hr_expense_tip',
 
+        'sale_order_line_limit',
+
+        'configure_quebec_tax',
+
         # Odoo base
         'account',
 
@@ -52,11 +56,13 @@ MathBenTechBase
         # OCA
         'website_form_builder',
         'website_snippet_anchor',
+        'partner_no_vat',
 
         # Canada
         'l10n_ca',
 
         # Scrummer
+        'project_agile_sale_timesheet',
         'scrummer',
         'scrummer_kanban',
         'scrummer_scrum',

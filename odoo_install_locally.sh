@@ -90,6 +90,7 @@ if [ $MINIMAL_ADDONS = "False" ]; then
     printf "${OE_HOME}/addons/muk_web," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/multi-company," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/odoo-business-spending-management-quebec-canada," >> ${OE_CONFIG_FILE}
+    printf "${OE_HOME}/addons/odoo-partner-addons," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/openeducat_erp," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/partner-contact," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/pos," >> ${OE_CONFIG_FILE}

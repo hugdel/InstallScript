@@ -103,6 +103,7 @@ if [ $MINIMAL_ADDONS = "False" ]; then
     printf "${OE_HOME}/addons/queue," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/reporting-engine," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/sale-workflow," >> ${OE_CONFIG_FILE}
+    printf "${OE_HOME}/addons/scrummer," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/server-auth," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/server-brand," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/server-env," >> ${OE_CONFIG_FILE}

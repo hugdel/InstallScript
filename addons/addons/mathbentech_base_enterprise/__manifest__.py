@@ -55,6 +55,14 @@ MathBenTechBase
 
         # Canada
         'l10n_ca',
+
+        # Scrummer
+        'scrummer',
+        'scrummer_kanban',
+        'scrummer_scrum',
+        'scrummer_workflow_security',
+        'scrummer_workflow_transition_by_project',
+        'scrummer_workflow_transitions_by_task_type',
     ],
     'data': [],
     'installable': True,

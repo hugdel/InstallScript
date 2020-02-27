@@ -36,6 +36,7 @@ All modules needed for enterprise with services for utility business.
 
         # General
         'digest',  # KPI
+        'helpdesk_mgmt',
     ],
     'data': [],
     'installable': True,

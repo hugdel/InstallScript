@@ -29,6 +29,7 @@ All modules needed for enterprise with services for utility business.
         'crm_marge',
         'menu_force_project_first',
         'crm_working_date',
+        'website_helpdesk_service_call',
 
         # OCA sale-workflow
         'sale_order_revision',

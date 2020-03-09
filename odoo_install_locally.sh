@@ -137,6 +137,8 @@ ${OE_HOME}/venv/bin/pip3 install --upgrade pip
 ${OE_HOME}/venv/bin/pip3 install wheel
 ${OE_HOME}/venv/bin/pip3 install -r https://gitlab.com/mathbentech/odoo/raw/${OE_VERSION}/requirements.txt
 ${OE_HOME}/venv/bin/pip3 install phonenumbers
+# For dev/testing
+${OE_HOME}/venv/bin/pip3 install websocket-client
 
 echo -e "\n---- Install Odoo with addons module ----"
 git submodule update --init

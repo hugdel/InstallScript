@@ -6,3 +6,5 @@
 venv
 *.log
 config.conf
+*.DS_Store
+*.pyc

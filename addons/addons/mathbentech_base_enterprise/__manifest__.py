@@ -22,6 +22,7 @@ MathBenTechBase
 
         'sale_order_line_limit',
 
+        'res_partner_fix_group_by_company',
         'configure_quebec_tax',
         'crm_filter_all',
         'sale_degroup_tax',

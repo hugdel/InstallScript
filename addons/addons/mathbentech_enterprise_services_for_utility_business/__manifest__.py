@@ -20,8 +20,10 @@ All modules needed for enterprise with services for utility business.
 
         # Custom MathBenTech
         'product_lump_sum',
-        'sale_custom_order_in_lines_and_regroup',
-        'sale_margin_percent',
+        # 'sale_margin_percent',
+        'sale_report_margin',
+        'sale_order_margin_percent',
+        'sale_margin_security',
         'sale_product_manufacturer',
         'sale_product_manufacturer_model',
         'sale_hide_tax_sale_order_lines',

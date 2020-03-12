@@ -199,3 +199,6 @@
 [submodule "addons/muk_website"]
 	path = addons/muk_website
 	url = https://github.com/MathBenTech/muk_website.git
+[submodule "addons/muk_misc"]
+	path = addons/muk_misc
+	url = https://github.com/MathBenTech/muk_misc.git

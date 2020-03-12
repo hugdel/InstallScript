@@ -87,6 +87,7 @@ if [ $MINIMAL_ADDONS = "False" ]; then
     printf "${OE_HOME}/addons/margin-analysis," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/mis-builder," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/muk_base," >> ${OE_CONFIG_FILE}
+    printf "${OE_HOME}/addons/muk_misc," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/muk_web," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/muk_website," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/multi-company," >> ${OE_CONFIG_FILE}

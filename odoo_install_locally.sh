@@ -31,8 +31,8 @@ OE_HOME_EXT="${OE_HOME}/odoo"
 # set the superadmin password
 #OE_SUPERADMIN="admin"
 OE_CONFIG_FILE="${OE_HOME}/config.conf"
-OE_CONFIG="${OE_USER}"
-MINIMAL_ADDONS="False"
+#OE_CONFIG="${OE_USER}"
+#MINIMAL_ADDONS="False"
 #INSTALL_NGINX="True"
 
 echo -e "* Create server config file"
@@ -87,7 +87,9 @@ if [ $MINIMAL_ADDONS = "False" ]; then
     printf "${OE_HOME}/addons/margin-analysis," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/mis-builder," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/muk_base," >> ${OE_CONFIG_FILE}
+    printf "${OE_HOME}/addons/muk_misc," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/muk_web," >> ${OE_CONFIG_FILE}
+    printf "${OE_HOME}/addons/muk_website," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/multi-company," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/odoo-business-spending-management-quebec-canada," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/odoo-partner-addons," >> ${OE_CONFIG_FILE}

@@ -196,3 +196,9 @@
 [submodule "addons/odoo-partner-addons"]
 	path = addons/odoo-partner-addons
 	url = https://github.com/MathBenTech/odoo-partner-addons.git
+[submodule "addons/muk_website"]
+	path = addons/muk_website
+	url = https://github.com/MathBenTech/muk_website.git
+[submodule "addons/muk_misc"]
+	path = addons/muk_misc
+	url = https://github.com/MathBenTech/muk_misc.git

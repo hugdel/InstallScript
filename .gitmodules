@@ -202,3 +202,36 @@
 [submodule "addons/muk_misc"]
 	path = addons/muk_misc
 	url = https://github.com/MathBenTech/muk_misc.git
+[submodule "addons/odoo-project-addons"]
+	path = addons/odoo-project-addons
+	url = https://github.com/Numigi/odoo-project-addons.git
+[submodule "addons/odoo-git-addons"]
+	path = addons/odoo-git-addons
+	url = https://github.com/Numigi/odoo-git-addons.git
+[submodule "addons/odoo-web-addons"]
+	path = addons/odoo-web-addons
+	url = https://github.com/Numigi/odoo-web-addons.git
+[submodule "addons/odoo-product-addons"]
+	path = addons/odoo-product-addons
+	url = https://github.com/Numigi/odoo-product-addons.git
+[submodule "addons/odoo-entertainment-addons"]
+	path = addons/odoo-entertainment-addons
+	url = https://github.com/Numigi/odoo-entertainment-addons.git
+[submodule "addons/odoo-timesheet-addons"]
+	path = addons/odoo-timesheet-addons
+	url = https://github.com/Numigi/odoo-timesheet-addons.git
+[submodule "addons/odoo-hr-addons"]
+	path = addons/odoo-hr-addons
+	url = https://github.com/Numigi/odoo-hr-addons.git
+[submodule "addons/odoo-purchase-addons"]
+	path = addons/odoo-purchase-addons
+	url = https://github.com/Numigi/odoo-purchase-addons.git
+[submodule "addons/odoo-stock-addons"]
+	path = addons/odoo-stock-addons
+	url = https://github.com/Numigi/odoo-stock-addons.git
+[submodule "addons/odoo-base-addons"]
+	path = addons/odoo-base-addons
+	url = https://github.com/Numigi/odoo-base-addons.git
+[submodule "addons/odoo-survey-addons"]
+	path = addons/odoo-survey-addons
+	url = https://github.com/Numigi/odoo-survey-addons.git

@@ -61,6 +61,10 @@ MathBenTechBase
         'website_snippet_anchor',
         'partner_no_vat',
 
+        # Numigi
+        'project_chatter',
+        # 'project_iteration',
+
         # Canada
         'l10n_ca',
 

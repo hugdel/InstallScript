@@ -15,8 +15,7 @@ All modules needed by SantéLibre.
 """,
     'depends': [
         # MathBenTech
-        'mathbentech_enterprise_services_for_utility_business',
-        'sale_custom_order_in_lines_and_regroup',
+        # 'mathbentech_base_hackaton',
     ],
     'data': [
         'data/res_partner_data.xml',

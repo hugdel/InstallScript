@@ -12,6 +12,8 @@ def post_init_hook(cr, e):
         values = {
             'auth_signup_reset_password': True,
             'group_use_lead': True,
+            'website_name': "Le collectif SantéLibre",
+            'favicon': env.ref("santelibre_data.favicon").datas,
             # 'theme_color_brand': "#002b2a",
             # 'theme_color_primary': "#2CD5C4",
             # 'branding_color_text': "#4c4c4c",

@@ -12,7 +12,7 @@
     'summary': 'SantéLibre web theme',
     'description': """
 SantéLibre website theme
-==================
+========================
 SantéLibre website theme file
 """,
     'depends': [

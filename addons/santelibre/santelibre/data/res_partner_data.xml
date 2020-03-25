@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <record id="base.main_partner" model="res.partner">
-        <field name="name">SantéLibre</field>
+        <field name="name">Le collectif SantéLibre</field>
         <field name="customer" eval="False"/>
         <field name="is_company" eval="True"/>
         <field name="company_name">SantéLibre</field>

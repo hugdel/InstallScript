@@ -1,4 +1,5 @@
 $o-theme-layout: 'full';
+$o-theme-navbar-height: 300px;
 
 //------------------------------------------------------------------------------
 // Colors
@@ -8,10 +9,15 @@ $o-theme-layout: 'full';
 $-palettes: ();
 @each $palette in $o-color-palettes {
     $-palettes: append($-palettes, map-merge((
-        'body': #000000,
-        'menu': #000000,
-        'footer': #000000,
+        'body': #FFF,
+        'menu': #FFF,
+        'footer': #FFF,
         'text': #000000,
+        'alpha': #2e58fe,
+        'beta': #504f4f,
+        'gamma': #ffbd92,
+        //'delta': #242327,
+        //'epsilon': #957985,
         'h1': null, // Default to text
         'h2': null, // Default to h1
         'h3': null, // Default to h2
@@ -22,12 +28,20 @@ $-palettes: ();
 }
 $o-color-palettes: $-palettes;
 
+$o-theme-color-palettes: ();
+@each $-palette in $-palettes {
+    $o-theme-color-palettes: append($o-theme-color-palettes, map-merge($-palette, (
+        'primary': map-get($-palette, 'alpha'),
+        'secondary': map-get($-palette, 'beta'),
+    )));
+}
+
 // By default, all user color palette values are null. Each null value is
-// automatically replaced with corresponsing color of chosen color palette.
+// automatically replaced with corresponding color of chosen color palette.
 $o-user-color-palette: () !default;
 
 // By default, all user theme color palette values are null. Each null value
-// is automatically replaced with corresponsing color of chosen theme color
+// is automatically replaced with corresponding color of chosen theme color
 // palette.
 $o-user-theme-color-palette: () !default;
 
@@ -59,7 +73,10 @@ $o-theme-font-names: (
     'Noto Serif',
     'Arvo',
 ) !default;
-$o-theme-font-number: 1 !default;
-$o-theme-headings-font-number: 1 !default;
-$o-theme-buttons-font-number: 1 !default;
-$o-theme-navbar-font-number: 1 !default;
+$o-theme-font-number: 2 !default;
+$o-theme-headings-font-number: 2 !default;
+$o-theme-buttons-font-number: 2 !default;
+$o-theme-navbar-font-number: 2 !default;
+$o-color-palette-number: 1 !default;
+$o-theme-color-palette-number: 1 !default;
+$o-gray-color-palette-number: 1 !default;

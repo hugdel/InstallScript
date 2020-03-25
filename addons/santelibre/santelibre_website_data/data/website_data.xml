@@ -36,7 +36,8 @@
                                              data-name="Text">
                                             <p class="lead o_default_snippet_text"
                                                style="text-align: center;"/>
-                                            <div style="text-align: left;">Un collectif
+                                            <div style="text-align: justify; ">Un
+                                                collectif
                                                 libre d’ingénieurs, d’experts du domaine
                                                 de la santé, de designers, de
                                                 gestionnaires et individus d'autres
@@ -102,7 +103,8 @@
                                                     &amp;nbsp;
                                                 </font>
                                             </p>
-                                            <p>La <i>Montreal General Hospital
+                                            <p style="text-align: justify; ">La <i>
+                                                Montreal General Hospital
                                                 Foundation</i>, en collaboration avec la <i>
                                                 Research Institute of the McGill
                                                 University Health Centre
@@ -153,15 +155,16 @@
                                                 <br/>
                                             </p>
                                             <p/>
-                                            <div style="text-align: right;">Notre
+                                            <div style="text-align: justify; ">Notre
                                                 collectif libre d'experts est constitué
                                                 de plus de 20 professionnels
-                                                multidisciplinaires de tous&amp;nbsp;horizons
+                                                multidisciplinaires de tous horizons
                                                 : inhalothérapeute, pneumologue,
                                                 ingénieurs électriques, mécaniques et
-                                                biomécaniques, architecte de systèmes,&amp;nbsp;programmeurs,&amp;nbsp;designers,
-                                                gestionnaires et spécialiste du langage
-                                                et des communications.
+                                                biomécaniques, architecte de systèmes,
+                                                designers, programmeurs, gestionnaires
+                                                et spécialiste du langage et des
+                                                communications.
                                                 <span style="font-size: 0.875rem;">
                                                     <br/>
                                                 </span>
@@ -206,7 +209,8 @@
                                         </div>
                                         <div class="col-lg-6 pt16 pb16">
                                             <h2>Le libre, la santé et l'urgence d'agir&amp;nbsp;</h2>
-                                            <p>Les membres de l’équipe travaillent dans
+                                            <p style="text-align: justify; ">Les membres
+                                                de l’équipe travaillent dans
                                                 le mouvement du&amp;nbsp; Libre . C’est
                                                 dans un esprit de partage et de
                                                 communauté que le mouvement désire faire
@@ -275,7 +279,7 @@
                                                 <blockquote
                                                         class="carousel-content col-lg-6 bg-white offset-lg-3">
                                                     <i class="fa fa-1x fa-quote-left rounded-0 bg-secondary s_quotes_carousel_icon"/>
-                                                    <p>
+                                                    <p style="text-align: justify; ">
                                                         <i>
                                                             <span style="-webkit-text-stroke-width: 0px; color: rgb(68, 68, 68); display: inline !important; float: none; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Meiryo UI&quot;, Arial, sans-serif; font-size: 14px; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-decoration-color: initial; text-decoration-style: initial; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;">
                                                                 Je rêve d'un accès
@@ -329,52 +333,52 @@
                                     </span>
                                 </div>
                             </div>
-                            <section class="s_references bg-200 pb40 pt32"
-                                     id="partenaires">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-lg-2 pt32">
-                                            <h4>Nos</h4>
-                                            <h4>partenaires</h4>
-                                        </div>
-                                        <div class="col-lg-2">
-                                            <img src="/web/image/792/votre_logo.png"
-                                                 class="img img-fluid"
-                                                 alt="Logo de Démo"
-                                                 data-original-title="" title=""
-                                                 aria-describedby="tooltip792395"/>
-                                        </div>
-                                        <div class="col-lg-2">
-                                            <img src="/web/image/792/votre_logo.png"
-                                                 class="img img-fluid"
-                                                 alt="Logo de Démo"
-                                                 data-original-title="" title=""
-                                                 aria-describedby="tooltip489125"/>
-                                        </div>
-                                        <div class="col-lg-2">
-                                            <img src="/web/image/792/votre_logo.png"
-                                                 class="img img-fluid"
-                                                 alt="Logo de Démo"
-                                                 data-original-title="" title=""
-                                                 aria-describedby="tooltip221459"/>
-                                        </div>
-                                        <div class="col-lg-2">
-                                            <img src="/web/image/792/votre_logo.png"
-                                                 class="img img-fluid"
-                                                 alt="Logo de Démo"
-                                                 data-original-title="" title=""
-                                                 aria-describedby="tooltip495204"/>
-                                        </div>
-                                        <div class="col-lg-2">
-                                            <img src="/web/image/792/votre_logo.png"
-                                                 class="img img-fluid"
-                                                 alt="Logo de Démo"
-                                                 data-original-title="" title=""
-                                                 aria-describedby="tooltip242424"/>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
+                            <!--                            <section class="s_references bg-200 pb40 pt32"-->
+                            <!--                                     id="partenaires">-->
+                            <!--                                <div class="container">-->
+                            <!--                                    <div class="row">-->
+                            <!--                                        <div class="col-lg-2 pt32">-->
+                            <!--                                            <h4>Nos</h4>-->
+                            <!--                                            <h4>partenaires</h4>-->
+                            <!--                                        </div>-->
+                            <!--                                        <div class="col-lg-2">-->
+                            <!--                                            <img src="/web/image/792/votre_logo.png"-->
+                            <!--                                                 class="img img-fluid"-->
+                            <!--                                                 alt="Logo de Démo"-->
+                            <!--                                                 data-original-title="" title=""-->
+                            <!--                                                 aria-describedby="tooltip792395"/>-->
+                            <!--                                        </div>-->
+                            <!--                                        <div class="col-lg-2">-->
+                            <!--                                            <img src="/web/image/792/votre_logo.png"-->
+                            <!--                                                 class="img img-fluid"-->
+                            <!--                                                 alt="Logo de Démo"-->
+                            <!--                                                 data-original-title="" title=""-->
+                            <!--                                                 aria-describedby="tooltip489125"/>-->
+                            <!--                                        </div>-->
+                            <!--                                        <div class="col-lg-2">-->
+                            <!--                                            <img src="/web/image/792/votre_logo.png"-->
+                            <!--                                                 class="img img-fluid"-->
+                            <!--                                                 alt="Logo de Démo"-->
+                            <!--                                                 data-original-title="" title=""-->
+                            <!--                                                 aria-describedby="tooltip221459"/>-->
+                            <!--                                        </div>-->
+                            <!--                                        <div class="col-lg-2">-->
+                            <!--                                            <img src="/web/image/792/votre_logo.png"-->
+                            <!--                                                 class="img img-fluid"-->
+                            <!--                                                 alt="Logo de Démo"-->
+                            <!--                                                 data-original-title="" title=""-->
+                            <!--                                                 aria-describedby="tooltip495204"/>-->
+                            <!--                                        </div>-->
+                            <!--                                        <div class="col-lg-2">-->
+                            <!--                                            <img src="/web/image/792/votre_logo.png"-->
+                            <!--                                                 class="img img-fluid"-->
+                            <!--                                                 alt="Logo de Démo"-->
+                            <!--                                                 data-original-title="" title=""-->
+                            <!--                                                 aria-describedby="tooltip242424"/>-->
+                            <!--                                        </div>-->
+                            <!--                                    </div>-->
+                            <!--                                </div>-->
+                            <!--                            </section>-->
                             <section class="s_text_block pt32 pb0" id="dons">
                                 <div class="container">
                                     <div class="row">
@@ -388,7 +392,7 @@
                                             <p class="lead">Nous avons besoin de votre
                                                 support pour...
                                             </p>
-                                            <p>
+                                            <p style="text-align: justify; ">
                                                 <b>Les membres de l'équipe de SantéLibre
                                                     font ce concours sur une base
                                                     volontaire et bénévole.
@@ -409,9 +413,8 @@
                                                     rapidement une solution viable.
                                                     <br/>
                                                 </span>
-                                                <b/>
                                             </p>
-                                            <p>
+                                            <p style="text-align: justify; ">
                                                 <b>Tous les dons iront à la conception
                                                     et la réalisation d'un prototype de
                                                     respirateur artificiel.
@@ -427,26 +430,162 @@
                                                 </span>
                                                 <b></b>
                                             </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                            <section class="pt32 pb0">
-                                <div class="container">
-                                    <div class="row s_nb_column_fixed">
-                                        <div class="col-lg-12 s_title pt16 pb16"
-                                             style="text-align: center;">
-                                            <h1 class="s_title_default">
-                                                <font style="font-size: 62px;">BLOC DON&amp;nbsp;</font>
-                                            </h1>
-                                            <div class="s_hr text-left pt32 pb32">
-                                                <hr class="s_hr_1px s_hr_solid border-600 w-100 mx-auto"/>
+                                            <div class="s_btn text-center pb16 pt16"
+                                                 data-name="Buttons">
+                                                <a href="#don_formulaire"
+                                                   data-original-title="" title=""
+                                                   aria-describedby="tooltip409645"
+                                                   class="btn btn-alpha">Faire un don
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </section>
-                            <section class="pt32 pb64" id="joindre">
+                            <section class="s_text_block pt32 pb32" id="don_formulaire">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-10 offset-lg-1 pt32 pb32">
+                                            <p class="lead">
+                                                <font style="font-size: 14px;">Nous
+                                                    visons&amp;nbsp;
+                                                </font>
+                                                <b>
+                                                    <font style="font-size: 14px;"><b>un
+                                                        objectif de 5000$</b>&amp;nbsp;
+                                                    </font>
+                                                </b>
+                                                <font style="font-size: 14px;">pour
+                                                    réussir le prototype de ventilateur,
+                                                    tous les montants comptent!
+                                                </font>
+                                            </p>
+                                            <p class="lead">
+                                                <font style="font-size: 14px;">Veuillez
+                                                    remplir le formulaire ci-dessous et
+                                                    nous vous contacterons avec les
+                                                    instructions pour procéder, les dons
+                                                    s'effectueront par virements.
+                                                </font>
+                                                <br/>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="container readable o_website_form_builder">
+                                <form accept-charset="UTF-8" action="/website_form/"
+                                      class="s_website_form col-md-12 mt32"
+                                      data-model_name="helpdesk.ticket"
+                                      data-force_action="" data-success_page=""
+                                      enctype="multipart/form-data" method="post">
+                                    <div class="o_website_form_fields">
+                                        <div class="o_not_editable d-none o_default_snippet_text">
+                                            This placeholder prevents its parent from
+                                            disappearing when emptied
+                                        </div>
+                                        <div class="form-group form-field o_required form-field-char css_non_editable_mode_hidden"
+                                             data-model-field="true"
+                                             data-optional="false">
+                                            <label class="control-label" for="name">
+                                                <span>
+                                                    Titre
+                                                </span>
+                                            </label>
+                                            <input name="name" required="required"
+                                                   class="form-control o_website_form_input"
+                                                   type="text" value="- DON -"/>
+                                        </div>
+                                        <div class="form-group form-field o_required form-field-text css_non_editable_mode_hidden"
+                                             data-model-field="true"
+                                             data-optional="false">
+                                            <label class="control-label"
+                                                   for="description">
+                                                <span>Description</span>
+                                            </label>
+                                            <!--                                                      required="required"-->
+                                            <textarea name="description"
+                                                      class="form-control o_website_form_input"
+                                                      type="text"
+                                                      value="Version initiale"/>
+                                        </div>
+                                        <div class="form-group form-field  form-field-many2one css_non_editable_mode_hidden"
+                                             data-model-field="true"
+                                             data-optional="true">
+                                            <label class="control-label"
+                                                   for="category_id">
+                                                <span>
+                                                    Catégorie
+                                                </span>
+                                            </label>
+                                            <select name="category_id"
+                                                    class="form-control o_website_form_input">
+                                                <option/>
+                                                <option value="2" selected="selected">
+                                                    Donation
+                                                </option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group form-field  form-field-char o_required"
+                                             data-model-field="true"
+                                             data-optional="true">
+                                            <label class="control-label"
+                                                   for="partner_name">
+                                                <span>Nom</span>
+                                            </label>
+                                            <input name="partner_name"
+                                                   class="form-control o_website_form_input"
+                                                   type="text"/>
+                                        </div>
+                                        <div class="form-group form-field  form-field-char o_required"
+                                             data-model-field="true"
+                                             data-optional="true">
+                                            <label class="control-label"
+                                                   for="partner_email">
+                                                <span>Courriel&amp;nbsp;</span>
+                                            </label>
+                                            <input name="partner_email"
+                                                   class="form-control o_website_form_input"
+                                                   type="text"/>
+                                        </div>
+                                        <div class="form-group form-field  form-field-text"
+                                             data-model-field="false"
+                                             data-optional="true">
+                                            <label class="control-label"
+                                                   for="Custom Long text field">
+                                                <span>Commentaire</span>
+                                            </label>
+                                            <textarea name="Commentaire"
+                                                      class="form-control o_website_form_input"
+                                                      type="text"/>
+                                        </div>
+                                        <div class="form-group form-field  form-field-boolean"
+                                             data-model-field="false"
+                                             data-optional="true">
+                                            <label class="control-label"
+                                                   for="Custom Yes or not field">
+                                                <input name="Je ne veux pas que mon nom apparaisse dans la liste publique des donateurs."
+                                                       type="checkbox"
+                                                       class="o_website_form_input"
+                                                       value="Je ne veux pas que mon nom apparaisse dans la liste publique des donateurs."/>
+                                                <span>Je ne veux pas que mon nom
+                                                    apparaisse dans la liste publique
+                                                    des donateurs.
+                                                </span>
+                                            </label>
+                                            <p class="help-block"></p>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="button"
+                                                class="btn btn-primary btn-lg o_website_form_send o_default_snippet_text">
+                                            Envoyer
+                                        </button>
+                                        <span id="o_website_form_result"/>
+                                    </div>
+                                </form>
+                            </section>
+                            <section class="pt32 pb64 bg-200 oe_custom_bg" id="joindre">
                                 <div class="container">
                                     <div class="row s_nb_column_fixed">
                                         <div class="col-lg-12 s_title pb16 pt0"
@@ -492,10 +631,6 @@
                                                    for="partner_name">
                                                 <span>Nom</span>
                                             </label>
-                                            <label class="control-label"
-                                                   for="partner_name">
-                                                <span>&amp;nbsp;</span>
-                                            </label>
                                             <input name="partner_name"
                                                    class="form-control o_website_form_input"
                                                    type="text"/>
@@ -505,7 +640,7 @@
                                              data-optional="false">
                                             <label class="control-label"
                                                    for="description">
-                                                <span>Expertise pertinente</span>
+                                                <span>Expertise</span>
                                             </label>
                                             <textarea name="description"
                                                       required="required"
@@ -524,10 +659,25 @@
                                                    type="text"/>
                                         </div>
                                     </div>
+                                    <div class="form-group form-field  form-field-many2one css_non_editable_mode_hidden"
+                                         data-model-field="true" data-optional="true">
+                                        <label class="control-label" for="category_id">
+                                            <span>
+                                                Catégorie
+                                            </span>
+                                        </label>
+                                        <select name="category_id"
+                                                class="form-control o_website_form_input">
+                                            <option/>
+                                            <option value="3" selected="selected">
+                                                Join team
+                                            </option>
+                                        </select>
+                                    </div>
                                     <div class="form-group">
                                         <button type="button"
                                                 class="btn btn-primary btn-lg o_website_form_send o_default_snippet_text">
-                                            Envoyer
+                                            Je m'inscris
                                         </button>
                                         <span id="o_website_form_result"/>
                                     </div>
@@ -559,7 +709,6 @@
         </record>
 
         <!-- Add webpages to menu -->
-
         <record id="menu_website_a_propos" model="website.menu">
             <field name="name">À propos</field>
             <field name="url">/#apropos</field>
@@ -568,13 +717,13 @@
             <field name="sequence" type="int">10</field>
         </record>
 
-        <record id="menu_website_nos_partenaires" model="website.menu">
-            <field name="name">Nos partenaires</field>
-            <field name="url">/#partenaires</field>
-            <field name="parent_id" ref="main_menu"/>
-            <field name="website_id">1</field>
-            <field name="sequence" type="int">11</field>
-        </record>
+        <!--        <record id="menu_website_nos_partenaires" model="website.menu">-->
+        <!--            <field name="name">Nos partenaires</field>-->
+        <!--            <field name="url">/#partenaires</field>-->
+        <!--            <field name="parent_id" ref="main_menu"/>-->
+        <!--            <field name="website_id">1</field>-->
+        <!--            <field name="sequence" type="int">11</field>-->
+        <!--        </record>-->
 
         <record id="menu_website_dons" model="website.menu">
             <field name="name">Faire un don</field>

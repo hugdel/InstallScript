@@ -1,47 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <!-- Remove Odoo bootstrap overridde
-     faire vue pour choisir theme noxe
-
-     ajouter insertion du CSS modifié
-     ajouter fichier css dans static
-
-
-     -->
-    <!--    <template id="_assets_frontend_helpers" inherit_id="web._assets_frontend_helpers">-->
-    <!--        <xpath expr="//link[@href='/web_editor/static/src/scss/bootstrap_overridden.scss']" position="replace"/>-->
-    <!--        <xpath expr="//link[@href='/website/static/src/scss/bootstrap_overridden.scss']" position="replace"/>-->
-    <!--    </template>-->
-
-    <!--    <template id="theme_customize" inherit_id="website.theme_customize">-->
-    <!--        <xpath expr="//div" position="replace">-->
-    <!--            <div>-->
-    <!--                <content data-string="Themes" data-title="SantéLibre Themes">-->
-    <!--                    <opt data-xmlid="" data-icon="santelibre_website_theme/static/src/img/santelibre_bootswatch_default_thumbnail.png"/>-->
-    <!--                    <opt data-xmlid="theme_santelibre_bs_variables,theme_noxe" data-icon="santelibre_website_theme/static/src/img/santelibre_thumbnail.png"/>-->
-    <!--                </content>-->
-    <!--            </div>-->
-    <!--        </xpath>-->
-    <!--    </template>-->
-
-    <!--    <template id="theme_santelibre_bs_variables" name="SanteLibre" inherit_id="web._assets_frontend_helpers" active="True">-->
-    <!--        <xpath expr="//link[last()]" position="after">-->
-    <!--            <link rel="stylesheet" type="text/scss" href="/santelibre_website_theme/static/lib/bootswatch/noxe/_variables.scss"/>-->
-    <!--        </xpath>-->
-    <!--    </template>-->
-
-    <!--    <template id="theme_noxe" name="SanteLibre" inherit_id="website.assets_frontend" active="True">-->
-    <!--        <xpath expr="//link[last()]" position="after">-->
-    <!--            <link rel="stylesheet" type="text/scss" href="/santelibre_website_theme/static/lib/bootswatch/noxe/_bootswatch.scss"/>-->
-    <!--            <link rel="stylesheet" type="text/scss" href="/santelibre_website_theme/static/src/scss/santelibre_fix.scss"/>-->
-    <!--        </xpath>-->
-    <!--    </template>-->
-    <template id="theme_noxe" name="SanteLibre" inherit_id="website.assets_frontend"
+    <template id="theme" name="SanteLibre" inherit_id="website.assets_frontend"
               active="True">
         <xpath expr="//link[last()]" position="after">
-            <!--            <link rel="stylesheet" type="text/scss" href="/santelibre_website_theme/static/lib/bootswatch/noxe/_bootswatch.scss"/>-->
             <link rel="stylesheet" type="text/scss"
-                  href="/santelibre_website_theme/static/src/scss/santelibre_fix.scss"/>
+                  href="/santelibre_website_theme/static/src/scss/fix.scss"/>
             <link rel="stylesheet" type="text/scss"
                   href="/santelibre_website_theme/static/src/scss/_variables.scss"/>
         </xpath>

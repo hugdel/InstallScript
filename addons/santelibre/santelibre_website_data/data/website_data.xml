@@ -496,19 +496,6 @@
                                                    class="form-control o_website_form_input"
                                                    type="text" value="- DON -"/>
                                         </div>
-                                        <div class="form-group form-field o_required form-field-text css_non_editable_mode_hidden"
-                                             data-model-field="true"
-                                             data-optional="false">
-                                            <label class="control-label"
-                                                   for="description">
-                                                <span>Description</span>
-                                            </label>
-                                            <!--                                                      required="required"-->
-                                            <textarea name="description"
-                                                      class="form-control o_website_form_input"
-                                                      type="text"
-                                                      value="Version initiale"/>
-                                        </div>
                                         <div class="form-group form-field  form-field-many2one css_non_editable_mode_hidden"
                                              data-model-field="true"
                                              data-optional="true">
@@ -548,16 +535,12 @@
                                                    class="form-control o_website_form_input"
                                                    type="text"/>
                                         </div>
-                                        <div class="form-group form-field  form-field-text"
-                                             data-model-field="false"
-                                             data-optional="true">
+                                        <div class="form-group form-field o_required form-field-text" data-model-field="true" data-optional="false">
                                             <label class="control-label"
-                                                   for="Custom Long text field">
-                                                <span>Commentaire</span>
+                                                   for="description">
+                                                <span>Votre motivation</span>
                                             </label>
-                                            <textarea name="Commentaire"
-                                                      class="form-control o_website_form_input"
-                                                      type="text"/>
+                                            <textarea name="description" class="form-control o_website_form_input" type="text" required="required"/>
                                         </div>
                                         <div class="form-group form-field  form-field-boolean"
                                              data-model-field="false"

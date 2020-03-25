@@ -50,6 +50,7 @@ printf "longpolling_port = ${OE_LONGPOLLING_PORT}\n" >> ${OE_CONFIG_FILE}
 
 printf "addons_path = ${OE_HOME_EXT}/addons,${OE_HOME}/addons/addons," >> ${OE_CONFIG_FILE}
 printf "${OE_HOME}/addons/web," >> ${OE_CONFIG_FILE}
+printf "${OE_HOME}/addons/santelibre," >> ${OE_CONFIG_FILE}
 if [ $MINIMAL_ADDONS = "False" ]; then
     printf "${OE_HOME}/addons/account-analytic," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/account-budgeting," >> ${OE_CONFIG_FILE}

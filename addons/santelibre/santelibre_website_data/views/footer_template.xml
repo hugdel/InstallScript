@@ -16,7 +16,8 @@
                                         </span>
                                     </small>
                                 </h5>
-                                <p style="text-align: justify; ">Un collectif libre d’ingénieurs, d’experts du domaine
+                                <p style="text-align: justify; ">Un collectif libre
+                                    d’ingénieurs, d’experts du domaine
                                     de la santé, de
                                     designers, de gestionnaires et individus d'autres
                                     horizons est né pour
@@ -32,7 +33,10 @@
                             </div>
                             <div class="col-lg-2 offset-lg-1" id="connect">
                                 <h5>
-                                    <font style="font-size: 18px;">Nous Joindre</font>
+                                    <span style="font-weight: normal;">
+                                        <font style="font-size: 18px;">Nous joindre
+                                        </font>
+                                    </span>
                                 </h5>
                                 <h5>
                                     <font style="font-size: 18px;">
@@ -51,7 +55,10 @@
                                 </p>
                             </div>
                             <div class="pt0 col-lg-2 offset-lg-1">
-                                <h5>Nous appuyer</h5>
+                                <h5>
+                                    <span style="font-weight: normal;">Nous appuyer
+                                    </span>
+                                </h5>
                                 <h5>
                                     <br/>
                                 </h5>

@@ -19,7 +19,6 @@ SantéLibre website theme file
         "website",
         "website_theme_install",
     ],
-    "sequence": 20,
     'data': [
         'data/theme_santelibre_data.xml',
         'views/theme_santelibre_templates.xml',

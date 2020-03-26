@@ -4,9 +4,9 @@
               active="True">
         <xpath expr="//link[last()]" position="after">
             <link rel="stylesheet" type="text/scss"
-                  href="/santelibre_website_theme/static/src/scss/fix.scss"/>
+                  href="/theme_website_santelibre/static/src/scss/fix.scss"/>
             <link rel="stylesheet" type="text/scss"
-                  href="/santelibre_website_theme/static/src/scss/_variables.scss"/>
+                  href="/theme_website_santelibre/static/src/scss/_variables.scss"/>
         </xpath>
     </template>
     <template id="_assets_primary_variables"
@@ -14,7 +14,7 @@
         <xpath expr="//link[@href='/website/static/src/scss/primary_variables.scss']"
                position="replace">
             <link rel="stylesheet" type="text/scss"
-                  href="/santelibre_website_theme/static/src/scss/primary_variables.scss"/>
+                  href="/theme_website_santelibre/static/src/scss/primary_variables.scss"/>
         </xpath>
     </template>
 </odoo>

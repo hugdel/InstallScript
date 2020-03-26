@@ -481,115 +481,17 @@
                                                     tous les montants comptent!
                                                 </font>
                                             </p>
-                                            <p class="lead">
-                                                <font style="font-size: 14px;">Veuillez
-                                                    remplir le formulaire ci-dessous et
-                                                    nous vous contacterons avec les
-                                                    instructions pour procéder, les dons
-                                                    s'effectueront par virements.
-                                                </font>
-                                                <br/>
-                                            </p>
+                                            <div class="s_btn text-center pt16 pb16"
+                                                 data-name="Buttons">
+                                                <a href="/shop" class="btn btn-primary"
+                                                   data-original-title="" title=""
+                                                   aria-describedby="tooltip851967">Je
+                                                    veux aider avec un don
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </section>
-                            <section
-                                    class="container readable o_website_form_builder pb32">
-                                <form accept-charset="UTF-8" action="/website_form/"
-                                      class="s_website_form col-md-12 mt32"
-                                      data-model_name="helpdesk.ticket"
-                                      data-force_action="" data-success_page=""
-                                      enctype="multipart/form-data" method="post">
-                                    <div class="o_website_form_fields">
-                                        <div class="o_not_editable d-none o_default_snippet_text">
-                                            This placeholder prevents its parent from
-                                            disappearing when emptied
-                                        </div>
-                                        <div class="form-group form-field o_required form-field-char css_non_editable_mode_hidden"
-                                             data-model-field="true"
-                                             data-optional="false">
-                                            <label class="control-label" for="name">
-                                                <span>Titre</span>
-                                            </label>
-                                            <input name="name" required="required"
-                                                   class="form-control o_website_form_input"
-                                                   type="text" value="- DON -"/>
-                                        </div>
-                                        <div class="form-group form-field  form-field-many2one css_non_editable_mode_hidden"
-                                             data-model-field="true"
-                                             data-optional="true">
-                                            <label class="control-label"
-                                                   for="category_id">
-                                                <span>Catégorie</span>
-                                            </label>
-                                            <select name="category_id"
-                                                    class="form-control o_website_form_input">
-                                                <option/>
-                                                <option value="2" selected="selected">
-                                                    Donation
-                                                </option>
-                                            </select>
-                                        </div>
-                                        <div class="form-group form-field  form-field-char o_required"
-                                             data-model-field="true"
-                                             data-optional="true">
-                                            <label class="control-label"
-                                                   for="partner_name">
-                                                <span>Nom</span>
-                                            </label>
-                                            <input name="partner_name"
-                                                   class="form-control o_website_form_input"
-                                                   type="text"/>
-                                        </div>
-                                        <div class="form-group form-field  form-field-char o_required"
-                                             data-model-field="true"
-                                             data-optional="true">
-                                            <label class="control-label"
-                                                   for="partner_email">
-                                                <span>Courriel</span>
-                                            </label>
-                                            <input name="partner_email"
-                                                   class="form-control o_website_form_input"
-                                                   type="text"/>
-                                        </div>
-                                        <div class="form-group form-field o_required form-field-text"
-                                             data-model-field="true"
-                                             data-optional="false">
-                                            <label class="control-label"
-                                                   for="description">
-                                                <span>Votre motivation</span>
-                                            </label>
-                                            <textarea name="description"
-                                                      class="form-control o_website_form_input"
-                                                      type="text" required="required"/>
-                                        </div>
-                                        <div class="form-group form-field  form-field-boolean"
-                                             data-model-field="false"
-                                             data-optional="true">
-                                            <label class="control-label"
-                                                   for="Custom Yes or not field">
-                                                <input name="Je ne veux pas que mon nom apparaisse dans la liste publique des donateurs."
-                                                       type="checkbox"
-                                                       class="o_website_form_input"
-                                                       value="Je ne veux pas que mon nom apparaisse dans la liste publique des donateurs."/>
-                                                <span>Je ne veux pas que mon nom
-                                                    apparaisse dans la liste publique
-                                                    des donateurs.
-                                                </span>
-                                            </label>
-                                            <p class="help-block"/>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <button type="button"
-                                                class="btn btn-primary btn-lg o_website_form_send"
-                                                data-original-title="" title=""
-                                                aria-describedby="tooltip592710">J'aide
-                                        </button>
-                                        <span id="o_website_form_result"/>
-                                    </div>
-                                </form>
                             </section>
                             <section class="pb16 oe_custom_bg pt40" id="joindre">
                                 <div class="container">

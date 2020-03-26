@@ -10,6 +10,7 @@ def pre_init_hook(cr):
     with api.Environment.manage():
         env = api.Environment(cr, SUPERUSER_ID, {})
 
+        # TODO delete all supported page
         # Remove all website pages before installing data
         website_page_ids = env['website.page'].search([])
         website_menu_ids = env['website.menu'].search([])

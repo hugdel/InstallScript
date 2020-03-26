@@ -732,7 +732,7 @@
             <field name="name">Default Main Menu</field>
             <field name="url">/default-main-menu</field>
             <field name="website_id">1</field>
-            <field name="page_id">1</field>
+            <field name="page_id" ref="website_page_home"/>
             <!-- parent_id null because is root -->
             <!--#TODO field name="theme_template_id" ref=""-->
         </record>

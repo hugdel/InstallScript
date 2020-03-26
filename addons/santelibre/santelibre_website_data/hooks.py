@@ -20,3 +20,4 @@ def pre_init_hook(cr):
             website_page.website_id = None
         for website_menu in website_menu_ids:
             website_menu.website_id = None
+            website_menu.page_id = None

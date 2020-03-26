@@ -37,9 +37,8 @@
                                             <p class="lead o_default_snippet_text"
                                                style="text-align: center;"/>
                                             <div style="text-align: justify; ">Un
-                                                collectif
-                                                libre d’ingénieurs, d’experts du domaine
-                                                de la santé, de designers, de
+                                                collectif libre d’ingénieurs, d’experts
+                                                du domaine de la santé, de designers, de
                                                 gestionnaires et individus d'autres
                                                 horizons est né pour relever un défi de
                                                 taille : fabriquer un respirateur
@@ -75,55 +74,46 @@
                                     </div>
                                 </div>
                             </section>
-                            <section class="s_text_image pb32 pt88">
+                            <section class="s_text_image pt88 pb4">
                                 <div class="container">
-                                    <div class="row align-items-center">
-                                        <div class="pb16 pt0 col-lg-6">
-                                            <img src="/santelibre_website_data/static/src/img/ventilator_hospital_1525.jpg"
+                                    <div class="row align-items-start">
+                                        <div class="pb16 col-lg-6 pt24">
+                                            <img src="/santelibre_website_data/static/src/img/img01_defi_v2.jpg"
                                                  class="img img-fluid mx-auto"
                                                  alt="System • Image et Texte"
                                                  data-original-title="" title=""
                                                  aria-describedby="tooltip609216"
-                                                 style="width: 100%;"
-                                                 data-aspect-ratio="0/0" data-x="0"
-                                                 data-y="0"
-                                                 data-width="488.58571428571435"
-                                                 data-height="305" data-rotate="0"
-                                                 data-scale-x="1" data-scale-y="1"/>
+                                                 style="width: 100%;"/>
                                         </div>
                                         <div class="pt16 pb16 col-lg-6">
                                             <h2>
-                                                <font style="font-size: 24px;">Concevoir
-                                                    un respirateur artificiel en 10
-                                                    jours
+                                                <font style="font-size: 36px;"
+                                                      class="text-alpha">Concevoir un
+                                                    respirateur artificiel en 10 jours
                                                 </font>
                                             </h2>
-                                            <p>
-                                                <font style="font-size: 9px;">
-                                                    &amp;nbsp;
-                                                </font>
-                                            </p>
                                             <p style="text-align: justify; ">La <i>
-                                                Montreal General Hospital
-                                                Foundation</i>, en collaboration avec la <i>
-                                                Research Institute of the McGill
-                                                University Health Centre
-                                            </i> a lancé un défi d’innovation global qui
-                                                a pour objectif de concevoir, fabriquer
-                                                et tester un prototype de ventilateur
-                                                respiratoire accessible, rapide et
-                                                facile à fabriquer qui pourra ensuite
-                                                être redistribué dans les hôpitaux pour
-                                                faire face à la demande potentielle
-                                                créée par la pandémie du COVID-19.
+                                                Montreal General Hospital Foundation</i>,
+                                                en collaboration avec la <i>Research
+                                                    Institute of the McGill University
+                                                    Health Centre
+                                                </i> a lancé un défi d’innovation global
+                                                qui a pour objectif de concevoir,
+                                                fabriquer et tester un prototype de
+                                                ventilateur respiratoire accessible,
+                                                rapide et facile à fabriquer qui pourra
+                                                ensuite être redistribué dans les
+                                                hôpitaux pour faire face à la demande
+                                                potentielle créée par la pandémie du
+                                                COVID-19.
                                                 <br/>
                                             </p>
-                                            <p><img class="img-fluid o_we_custom_image"
-                                                    src="/santelibre_website_data/static/src/img/MGHF_logo.png"
-                                                    data-original-title="" title=""
-                                                    aria-describedby="tooltip363804"
-                                                    style="width: 25%;"/>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-                                                &amp;nbsp; &amp;nbsp;&amp;nbsp;
+                                            <p>
+                                                <img class="img-fluid o_we_custom_image"
+                                                     src="/santelibre_website_data/static/src/img/MGHF_logo.png"
+                                                     data-original-title="" title=""
+                                                     aria-describedby="tooltip363804"
+                                                     style="width: 25%;"/>
                                                 <img class="img-fluid o_we_custom_image"
                                                      src="/santelibre_website_data/static/src/img/mcgill.png"
                                                      data-original-title="" title=""
@@ -142,32 +132,34 @@
                                     </div>
                                 </div>
                             </section>
-                            <section class="s_text_image pt80 pb88">
+                            <section class="s_text_image pt8 pb64">
                                 <div class="container">
                                     <div class="row align-items-center">
-                                        <div class="pt16 pb16 col-lg-6">
+                                        <div class="pb16 pt96 col-lg-6">
                                             <h2 style="text-align: right; ">
-                                                <font style="font-size: 24px;">Un
-                                                    collectif libre d'experts
+                                                <font style="font-size: 36px;"
+                                                      class="text-alpha">Un collectif
+                                                    libre d'experts
                                                 </font>
                                             </h2>
-                                            <p>
-                                                <br/>
-                                            </p>
                                             <p/>
                                             <div style="text-align: justify; ">Notre
                                                 collectif libre d'experts est constitué
-                                                de plus de 20 professionnels
-                                                multidisciplinaires de tous horizons
-                                                : inhalothérapeute, pneumologue,
+                                                de plus de 30 professionnels
+                                                multidisciplinaires de tous horizons :
+                                                inhalothérapeute, pneumologue,
                                                 ingénieurs électriques, mécaniques et
                                                 biomécaniques, architecte de systèmes,
                                                 designers, programmeurs, gestionnaires
                                                 et spécialiste du langage et des
-                                                communications.
-                                                <span style="font-size: 0.875rem;">
-                                                    <br/>
-                                                </span>
+                                                communications.<br/>Nous sommes à la <b>
+                                                    recherche</b>, le plus rapidement
+                                                possible, de <b>programmeurs Web
+                                                    backend-frontend-embarqué</b>, d'<b>
+                                                    ingénieurs mécaniques
+                                                </b> et de
+                                                <b>techniciens de modélisation 3D</b>.
+                                                <br/>
                                             </div>
                                             <div style="text-align: right;">
                                                 <br/>
@@ -189,8 +181,8 @@
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="pb16 col-lg-6 pt24">
-                                            <img src="/santelibre_website_data/static/src/img/collectif_expert_v2.jpg"
+                                        <div class="pb16 col-lg-6 pt40">
+                                            <img src="/santelibre_website_data/static/src/img/img02_collectif.jpg"
                                                  class="img img-fluid mx-auto"
                                                  alt="System • Texte et Image"
                                                  data-original-title="" title=""
@@ -201,21 +193,28 @@
                             </section>
                             <section class="s_text_image pt32 pb32">
                                 <div class="container">
-                                    <div class="row align-items-center">
-                                        <div class="col-lg-6 pt16 pb16">
-                                            <img src="/web/image/website.s_image_text_default_image"
+                                    <div class="row align-items-start">
+                                        <div class="col-lg-6 pt16 pb4">
+                                            <img src="/santelibre_website_data/static/src/img/img03_libre.jpg"
                                                  class="img img-fluid mx-auto"
-                                                 alt="System • Image et Texte"/>
+                                                 alt="System • Image et Texte"
+                                                 data-original-title="" title=""
+                                                 aria-describedby="tooltip459299"/>
                                         </div>
-                                        <div class="col-lg-6 pt16 pb16">
-                                            <h2>Le libre, la santé et l'urgence d'agir&amp;nbsp;</h2>
+                                        <div class="col-lg-6 pb16 pt4">
+                                            <h2>
+                                                <font class="text-alpha"
+                                                      style="font-size: 36px;">Le libre,
+                                                    la santé et l'urgence d'agir
+                                                </font>
+                                            </h2>
                                             <p style="text-align: justify; ">Les membres
-                                                de l’équipe travaillent dans
-                                                le mouvement du&amp;nbsp; Libre . C’est
+                                                de l’équipe travaillent dans le
+                                                mouvement du Libre. C’est
                                                 dans un esprit de partage et de
                                                 communauté que le mouvement désire faire
                                                 avancer les enjeux de la société. Nous
-                                                croyons que le&amp;nbsp; Libre&amp;nbsp;
+                                                croyons que le Libre
                                                 est la façon idéale de résoudre les
                                                 grandes crises et de réaliser des
                                                 avancements technologiques, car il fait
@@ -225,13 +224,15 @@
                                                 pour son profit personnel, mais dans le
                                                 cadre de l’avancement de la communauté.
                                                 La santé, physique et mentale, est un
-                                                besoin universel. SantéLibre regroupe
-                                                des personnes qui valorisent l’accès au
-                                                soin pour tous en gratuité et rapidité.
-                                                En temps de pandémie, les experts des
-                                                milieux hospitaliers et de la recherche
-                                                font preuves de dévouement et
-                                                persévérance, même en condition de
+                                                besoin universel.
+                                            </p>
+                                            <p style="text-align: justify; ">SantéLibre
+                                                regroupe des personnes qui valorisent
+                                                l’accès au soin pour tous en gratuité et
+                                                rapidité. En temps de pandémie, les
+                                                experts des milieux hospitaliers et de
+                                                la recherche font preuves de dévouement
+                                                et persévérance, même en condition de
                                                 crise. L’approvisionnement d’appareils
                                                 et outils médicaux est un système qui
                                                 bouge lentement, ce qui peut mener à une
@@ -246,12 +247,10 @@
                                                 de communauté et la liberté d'utiliser
                                                 des concepts déjà proposés, ce qui
                                                 accélère grandement le processus.
-                                                <span style="color: rgb(68, 68, 68); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Meiryo UI&quot;, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgba(15, 34, 0, 0.05); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">
-                                                    <br/>
-                                                </span>
+                                                <br/>
                                             </p>
                                             <div class="s_btn text-left pt16 pb16">
-                                                <a href="https://vive-gnulinux.fr.cr/logiciel-libre/4-libertes/"
+                                                <a href="https://www.gnu.org/philosophy/free-sw.html"
                                                    class="btn btn-outline-primary"
                                                    data-original-title="" title=""
                                                    aria-describedby="tooltip839528">4
@@ -267,9 +266,7 @@
                                  data-interval="10000">
                                 <ol class="carousel-indicators d-none">
                                     <li data-target="#myCarousel1584911264355"
-                                        data-slide-to="0" class="active">
-                                        <br/>
-                                    </li>
+                                        data-slide-to="0" class="active"/>
                                 </ol>
                                 <div class="carousel-inner">
                                     <div class="carousel-item bg-200 pt80 pb80 active"
@@ -278,22 +275,78 @@
                                             <div class="row content">
                                                 <blockquote
                                                         class="carousel-content col-lg-6 bg-white offset-lg-3">
-                                                    <i class="fa fa-1x fa-quote-left rounded-0 bg-secondary s_quotes_carousel_icon"/>
+                                                    <i class="fa fa-1x fa-quote-left rounded-0 bg-secondary s_quotes_carousel_icon"
+                                                       data-original-title="" title=""
+                                                       aria-describedby="tooltip678695"/>
+                                                    <p style="text-align: justify; ">
+                                                        <i>
+                                                            <span style="-webkit-text-stroke-width: 0px; color: rgb(68, 68, 68); display: inline !important; float: none; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Meiryo UI&quot;, Arial, sans-serif; font-size: 14px; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-decoration-color: initial; text-decoration-style: initial; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;">
+                                                                Les grands
+                                                                bouleversements
+                                                                ont toujours été à
+                                                                l'origine
+                                                                de grandes innovations.
+                                                                Ce
+                                                                qui distingue la
+                                                                pandémie du
+                                                                COVID19, c'est notre
+                                                                capacité moderne de
+                                                                communication, nos
+                                                                connaissances
+                                                                scientifiques
+                                                                et notre capacité
+                                                                technologique. En
+                                                                unissant
+                                                                ces forces au profit de
+                                                                de
+                                                                la société, je n'ai
+                                                                aucun
+                                                                doute que nous pouvons
+                                                                développer des
+                                                                technologies,
+                                                                afin de sauver des vies
+                                                                aujourd'hui, et encore
+                                                                plus
+                                                                demain.
+                                                            </span>
+                                                        </i>
+                                                    </p>
+                                                    <footer>
+                                                        <img class="img"
+                                                             src="/santelibre_website_data/static/src/img/xavier_deschesne_simard.png"
+                                                             alt=""
+                                                             data-original-title=""
+                                                             title=""
+                                                             aria-describedby="tooltip647453"/>
+                                                        —Xavier Deschênes-Simard,&amp;nbsp;
+                                                        MD, CM, PhD,&amp;nbsp;Résident
+                                                        Médecine Interne au CHUM
+                                                    </footer>
+                                                </blockquote>
+                                                <blockquote
+                                                        class="carousel-content col-lg-6 bg-white offset-lg-3">
+                                                    <i class="fa fa-1x fa-quote-left rounded-0 bg-secondary s_quotes_carousel_icon"
+                                                       data-original-title="" title=""
+                                                       aria-describedby="tooltip317515"/>
                                                     <p style="text-align: justify; ">
                                                         <i>
                                                             <span style="-webkit-text-stroke-width: 0px; color: rgb(68, 68, 68); display: inline !important; float: none; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Meiryo UI&quot;, Arial, sans-serif; font-size: 14px; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-decoration-color: initial; text-decoration-style: initial; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;">
                                                                 Je rêve d'un accès
-                                                                universel aux soins de
-                                                                santé et de traitements
-                                                                de qualité pour tous;
-                                                                faisons oeuvre commune
+                                                                universel
+                                                                aux soins de santé et de
+                                                                traitements de qualité
+                                                                pour
+                                                                tous; faisons oeuvre
+                                                                commune
                                                                 et joignons nos forces
-                                                                pour que cela soit
-                                                                possible. Toutes les
-                                                                petites contributions
-                                                                individuelles dans un
-                                                                effort collectif font
-                                                                rouler la civilisation.
+                                                                pour
+                                                                que cela soit possible.
+                                                                Toutes les petites
+                                                                contributions
+                                                                individuelles
+                                                                dans un effort collectif
+                                                                font rouler la
+                                                                civilisation.
                                                             </span>
                                                         </i>
                                                     </p>
@@ -304,10 +357,12 @@
                                                              data-original-title=""
                                                              title=""
                                                              aria-describedby="tooltip647453"/>
-                                                        <span>— Stéphanie Goupil,
-                                                            Inhalothérapeute, Hôpital
-                                                            Maisonneuve-Rosemont
-                                                        </span>
+                                                        —Stéphanie Goupil,
+                                                        Inhalothérapeute,
+                                                        Hôpital Maisonneuve-Rosemont
+                                                        <font style="font-size: 10px;">
+                                                            &amp;nbsp;
+                                                        </font>
                                                     </footer>
                                                 </blockquote>
                                             </div>
@@ -333,61 +388,35 @@
                                     </span>
                                 </div>
                             </div>
-                            <!--                            <section class="s_references bg-200 pb40 pt32"-->
-                            <!--                                     id="partenaires">-->
-                            <!--                                <div class="container">-->
-                            <!--                                    <div class="row">-->
-                            <!--                                        <div class="col-lg-2 pt32">-->
-                            <!--                                            <h4>Nos</h4>-->
-                            <!--                                            <h4>partenaires</h4>-->
-                            <!--                                        </div>-->
-                            <!--                                        <div class="col-lg-2">-->
-                            <!--                                            <img src="/web/image/792/votre_logo.png"-->
-                            <!--                                                 class="img img-fluid"-->
-                            <!--                                                 alt="Logo de Démo"-->
-                            <!--                                                 data-original-title="" title=""-->
-                            <!--                                                 aria-describedby="tooltip792395"/>-->
-                            <!--                                        </div>-->
-                            <!--                                        <div class="col-lg-2">-->
-                            <!--                                            <img src="/web/image/792/votre_logo.png"-->
-                            <!--                                                 class="img img-fluid"-->
-                            <!--                                                 alt="Logo de Démo"-->
-                            <!--                                                 data-original-title="" title=""-->
-                            <!--                                                 aria-describedby="tooltip489125"/>-->
-                            <!--                                        </div>-->
-                            <!--                                        <div class="col-lg-2">-->
-                            <!--                                            <img src="/web/image/792/votre_logo.png"-->
-                            <!--                                                 class="img img-fluid"-->
-                            <!--                                                 alt="Logo de Démo"-->
-                            <!--                                                 data-original-title="" title=""-->
-                            <!--                                                 aria-describedby="tooltip221459"/>-->
-                            <!--                                        </div>-->
-                            <!--                                        <div class="col-lg-2">-->
-                            <!--                                            <img src="/web/image/792/votre_logo.png"-->
-                            <!--                                                 class="img img-fluid"-->
-                            <!--                                                 alt="Logo de Démo"-->
-                            <!--                                                 data-original-title="" title=""-->
-                            <!--                                                 aria-describedby="tooltip495204"/>-->
-                            <!--                                        </div>-->
-                            <!--                                        <div class="col-lg-2">-->
-                            <!--                                            <img src="/web/image/792/votre_logo.png"-->
-                            <!--                                                 class="img img-fluid"-->
-                            <!--                                                 alt="Logo de Démo"-->
-                            <!--                                                 data-original-title="" title=""-->
-                            <!--                                                 aria-describedby="tooltip242424"/>-->
-                            <!--                                        </div>-->
-                            <!--                                    </div>-->
-                            <!--                                </div>-->
-                            <!--                            </section>-->
+                            <section class="s_references bg-200 pt16 pb16">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="pt32 col-lg-3">
+                                            <h4>Nos partenaires</h4>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <img src="/santelibre_website_data/static/src/img/1200px-Bell_logo_2018.png"
+                                                 class="img img-fluid"
+                                                 alt="Logo de Démo"
+                                                 data-original-title="" title=""
+                                                 aria-describedby="tooltip487828"
+                                                 style="width: 50%;"/>
+                                        </div>
+                                        <div class="col-lg-2"></div>
+                                        <div class="col-lg-2"></div>
+                                        <div class="col-lg-2"></div>
+                                    </div>
+                                </div>
+                            </section>
                             <section class="s_text_block pt32 pb0" id="dons">
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-lg-10 offset-lg-1 pt32 pb32">
-                                            <h2 style="color: rgb(33, 37, 41);">Pourquoi
-                                                faire un don?
-                                            </h2>
+                                        <div class="col-lg-10 offset-lg-1 pt32 pb0">
                                             <h2 style="color: rgb(33, 37, 41);">
-                                                <br/>
+                                                <font style="font-size: 36px;"
+                                                      class="text-alpha">Pourquoi faire
+                                                    un don?
+                                                </font>
                                             </h2>
                                             <p class="lead">Nous avons besoin de votre
                                                 support pour...
@@ -428,31 +457,23 @@
                                                     de partage, d'aide communautaire et
                                                     de résolution de problèmes en santé.
                                                 </span>
-                                                <b></b>
+                                                <b/>
                                             </p>
-                                            <div class="s_btn text-center pb16 pt16"
-                                                 data-name="Buttons">
-                                                <a href="#don_formulaire"
-                                                   data-original-title="" title=""
-                                                   aria-describedby="tooltip409645"
-                                                   class="btn btn-alpha">Faire un don
-                                                </a>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </section>
-                            <section class="s_text_block pt32 pb32" id="don_formulaire">
+                            <section class="s_text_block pt8 pb0" id="don_formulaire">
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-lg-10 offset-lg-1 pt32 pb32">
+                                        <div class="col-lg-10 offset-lg-1 pb32 pt0">
                                             <p class="lead">
                                                 <font style="font-size: 14px;">Nous
-                                                    visons&amp;nbsp;
+                                                    visons
                                                 </font>
                                                 <b>
-                                                    <font style="font-size: 14px;"><b>un
-                                                        objectif de 5000$</b>&amp;nbsp;
+                                                    <font style="color: rgb(55, 65, 231); font-size: 14px;">
+                                                        <b>un objectif de 5000$</b>
                                                     </font>
                                                 </b>
                                                 <font style="font-size: 14px;">pour
@@ -473,7 +494,8 @@
                                     </div>
                                 </div>
                             </section>
-                            <section class="container readable o_website_form_builder">
+                            <section
+                                    class="container readable o_website_form_builder pb32">
                                 <form accept-charset="UTF-8" action="/website_form/"
                                       class="s_website_form col-md-12 mt32"
                                       data-model_name="helpdesk.ticket"
@@ -488,9 +510,7 @@
                                              data-model-field="true"
                                              data-optional="false">
                                             <label class="control-label" for="name">
-                                                <span>
-                                                    Titre
-                                                </span>
+                                                <span>Titre</span>
                                             </label>
                                             <input name="name" required="required"
                                                    class="form-control o_website_form_input"
@@ -501,9 +521,7 @@
                                              data-optional="true">
                                             <label class="control-label"
                                                    for="category_id">
-                                                <span>
-                                                    Catégorie
-                                                </span>
+                                                <span>Catégorie</span>
                                             </label>
                                             <select name="category_id"
                                                     class="form-control o_website_form_input">
@@ -529,18 +547,22 @@
                                              data-optional="true">
                                             <label class="control-label"
                                                    for="partner_email">
-                                                <span>Courriel&amp;nbsp;</span>
+                                                <span>Courriel</span>
                                             </label>
                                             <input name="partner_email"
                                                    class="form-control o_website_form_input"
                                                    type="text"/>
                                         </div>
-                                        <div class="form-group form-field o_required form-field-text" data-model-field="true" data-optional="false">
+                                        <div class="form-group form-field o_required form-field-text"
+                                             data-model-field="true"
+                                             data-optional="false">
                                             <label class="control-label"
                                                    for="description">
                                                 <span>Votre motivation</span>
                                             </label>
-                                            <textarea name="description" class="form-control o_website_form_input" type="text" required="required"/>
+                                            <textarea name="description"
+                                                      class="form-control o_website_form_input"
+                                                      type="text" required="required"/>
                                         </div>
                                         <div class="form-group form-field  form-field-boolean"
                                              data-model-field="false"
@@ -556,27 +578,55 @@
                                                     des donateurs.
                                                 </span>
                                             </label>
-                                            <p class="help-block"></p>
+                                            <p class="help-block"/>
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <button type="button"
-                                                class="btn btn-primary btn-lg o_website_form_send o_default_snippet_text">
-                                            Envoyer
+                                                class="btn btn-primary btn-lg o_website_form_send"
+                                                data-original-title="" title=""
+                                                aria-describedby="tooltip592710">J'aide
                                         </button>
                                         <span id="o_website_form_result"/>
                                     </div>
                                 </form>
                             </section>
-                            <section class="pt32 pb64 bg-200 oe_custom_bg" id="joindre">
+                            <section class="pb16 oe_custom_bg pt40" id="joindre">
                                 <div class="container">
                                     <div class="row s_nb_column_fixed">
                                         <div class="col-lg-12 s_title pb16 pt0"
                                              style="text-align: center;">
+                                            <div class="s_hr text-left pb32 pt0">
+                                                <hr class="border-600 s_hr_1px s_hr_solid w-100 mx-auto"/>
+                                            </div>
                                             <h1 class="s_title_default">
-                                                <font style="font-size: 62px;">JOINDRE
-                                                    L'ÉQUIPE
+                                                <font class="text-alpha" style="">
+                                                    Joindre l'équipe
                                                 </font>
+                                            </h1>
+                                            <h1 class="s_title_default">
+                                                <font style="font-size: 18px;">Nous
+                                                    sommes à la
+                                                    <b>
+                                                        recherche
+                                                    </b>
+                                                    , le plus rapidement possible, de
+                                                    <b>
+                                                        programmeurs Web
+                                                        backend-frontend-embarqué
+                                                    </b>
+                                                    , d'
+                                                    <b>
+                                                        ingénieurs mécaniques
+                                                    </b>
+                                                    et de
+                                                    <b>
+                                                        techniciens
+                                                        de modélisation 3D
+                                                    </b>
+                                                    .
+                                                </font>
+                                                <br/>
                                             </h1>
                                         </div>
                                     </div>
@@ -598,9 +648,7 @@
                                              data-model-field="true"
                                              data-optional="false">
                                             <label class="control-label" for="name">
-                                                <span>
-                                                    Titre
-                                                </span>
+                                                <span>Titre</span>
                                             </label>
                                             <input name="name" required="required"
                                                    class="form-control o_website_form_input"
@@ -645,15 +693,13 @@
                                     <div class="form-group form-field  form-field-many2one css_non_editable_mode_hidden"
                                          data-model-field="true" data-optional="true">
                                         <label class="control-label" for="category_id">
-                                            <span>
-                                                Catégorie
-                                            </span>
+                                            <span>Catégorie</span>
                                         </label>
                                         <select name="category_id"
                                                 class="form-control o_website_form_input">
                                             <option/>
-                                            <option value="3" selected="selected">
-                                                Join team
+                                            <option value="3" selected="selected">Join
+                                                team
                                             </option>
                                         </select>
                                     </div>

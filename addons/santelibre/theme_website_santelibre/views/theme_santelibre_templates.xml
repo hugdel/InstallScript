@@ -5,8 +5,6 @@
         <xpath expr="//link[last()]" position="after">
             <link rel="stylesheet" type="text/scss"
                   href="/theme_website_santelibre/static/src/scss/fix.scss"/>
-            <link rel="stylesheet" type="text/scss"
-                  href="/theme_website_santelibre/static/src/scss/_variables.scss"/>
         </xpath>
     </template>
     <template id="_assets_primary_variables"

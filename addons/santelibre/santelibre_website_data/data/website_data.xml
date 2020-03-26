@@ -4,7 +4,7 @@
 
         <!-- website page content -->
         <record id="homepage" model="ir.ui.view">
-            <field name="name">Home</field>
+            <field name="name">Accueil</field>
             <field name="type">qweb</field>
             <field name="key">website.homepage</field>
             <field name="arch" type="xml">

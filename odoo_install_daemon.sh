@@ -51,8 +51,8 @@ EOF
 
 echo -e "* Security Init File"
 sudo cp /tmp/${OE_CONFIG} /etc/systemd/system/${OE_CONFIG}.service
-sudo chmod 755 /tmp/${OE_CONFIG}
-sudo chown root: /tmp/${OE_CONFIG}
+sudo chmod 755 /etc/systemd/system/${OE_CONFIG}.service
+sudo chown root: /etc/systemd/system/${OE_CONFIG}.service
 
 echo -e "* Start ODOO on Startup"
 sudo systemctl daemon-reload

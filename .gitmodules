@@ -235,3 +235,6 @@
 [submodule "addons/odoo-survey-addons"]
 	path = addons/odoo-survey-addons
 	url = https://github.com/Numigi/odoo-survey-addons.git
+[submodule "addons/stock-logistics-warehouse"]
+	path = addons/stock-logistics-warehouse
+	url = https://github.com/OCA/stock-logistics-warehouse.git

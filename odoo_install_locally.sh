@@ -77,6 +77,7 @@ if [ $MINIMAL_ADDONS = "False" ]; then
     printf "${OE_HOME}/addons/development," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/donation," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/e-commerce," >> ${OE_CONFIG_FILE}
+    printf "${OE_HOME}/addons/edi," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/event," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/helpdesk," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/hr," >> ${OE_CONFIG_FILE}
@@ -126,6 +127,7 @@ if [ $MINIMAL_ADDONS = "False" ]; then
     printf "${OE_HOME}/addons/server-ux," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/smile_addons," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/social," >> ${OE_CONFIG_FILE}
+    printf "${OE_HOME}/addons/stock-logistics-warehouse," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/timesheet," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/website," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/wms," >> ${OE_CONFIG_FILE}

@@ -238,3 +238,6 @@
 [submodule "addons/stock-logistics-warehouse"]
 	path = addons/stock-logistics-warehouse
 	url = https://github.com/OCA/stock-logistics-warehouse.git
+[submodule "addons/edi"]
+	path = addons/edi
+	url = https://github.com/MathBenTech/edi.git

@@ -241,3 +241,6 @@
 [submodule "addons/edi"]
 	path = addons/edi
 	url = https://github.com/MathBenTech/edi.git
+[submodule "addons/community-data-files"]
+	path = addons/community-data-files
+	url = https://github.com/MathBenTech/community-data-files.git

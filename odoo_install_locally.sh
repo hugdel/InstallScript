@@ -69,6 +69,7 @@ if [ $MINIMAL_ADDONS = "False" ]; then
     printf "${OE_HOME}/addons/brand," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/business-requirement," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/commission," >> ${OE_CONFIG_FILE}
+    printf "${OE_HOME}/addons/community-data-files," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/connector-telephony," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/contract," >> ${OE_CONFIG_FILE}
     printf "${OE_HOME}/addons/credit-control," >> ${OE_CONFIG_FILE}

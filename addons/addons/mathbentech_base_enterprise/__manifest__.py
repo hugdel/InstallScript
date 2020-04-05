@@ -27,6 +27,8 @@ MathBenTechBase
         'crm_filter_all',
         'sale_degroup_tax',
 
+        'helpdesk_mailing_list',
+
         # Odoo base
         'account',
 

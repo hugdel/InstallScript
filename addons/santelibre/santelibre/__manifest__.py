@@ -16,6 +16,7 @@ All modules needed by SantéLibre.
     'depends': [
         # MathBenTech
         # 'mathbentech_base_hackaton',
+        'mrp',
     ],
     'data': [
         'data/res_partner_data.xml',

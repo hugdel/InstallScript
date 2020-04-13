@@ -1,13 +1,13 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
 {
-    'name': 'MathBenTech base hackaton',
+    'name': 'MathBenTech base entreprise MRP',
     'version': '0.1',
     'author': "MathBenTech",
     'website': 'https://mathben.tech',
     'license': 'AGPL-3',
     'category': 'Human Resources',
-    'summary': 'INSTALL my base hackaton',
+    'summary': 'INSTALL my base entreprise MRP',
     'description': """
 MathBenTechBase
 ===============
@@ -20,12 +20,12 @@ MathBenTechBase
         'res_partner_fix_group_by_company',
         'crm_filter_all',
 
-        'helpdesk_service_call',
         'website_helpdesk',
         'website_portal_contact',
         'website_portal_address',
         'product_manufacturer_model',
-
+        'helpdesk_mailing_list',
+        'helpdesk_join_team',
 
         # Odoo base
         'account',
@@ -50,6 +50,9 @@ MathBenTechBase
         'website_form_builder',
         'website_snippet_anchor',
         'partner_no_vat',
+        'helpdesk_mgmt',
+        'helpdesk_service_call',
+        'helpdesk_supplier',
 
         # Numigi
         'project_chatter',

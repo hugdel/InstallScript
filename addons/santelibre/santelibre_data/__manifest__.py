@@ -17,7 +17,6 @@ All modules needed by SantéLibre.
         "helpdesk_service_call"
     ],
     'data': [
-        "data/helpdesk_data.xml",
         "data/web_data.xml",
     ],
     "post_init_hook": "post_init_hook",

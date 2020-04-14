@@ -1,0 +1,75 @@
+strict digraph "" {
+	graph [compound=true,
+		constraint=False,
+		label="Organigramme de Santélibre",
+		labelloc=t
+	];
+	node [fillcolor="#64a9f6",
+		fontcolor="#000000",
+		label="\N",
+		margin="0.50,0.10",
+		shape=box,
+		style="rounded, filled"
+	];
+	subgraph cluster_2 {
+		graph [label=Sales,
+			margin="3.6,0.7"
+		];
+		head2		 [fixedsize=False,
+			label=Sales,
+			style=invis,
+			width=0.5];
+	}
+	subgraph cluster_3 {
+		graph [label=log,
+			margin="3.6,0.7"
+		];
+		1		 [fixedsize=False,
+			label="Mathieu Benoit",
+			width=0.5];
+		14		 [label="Hugo Delage"];
+	}
+	subgraph cluster_1 {
+		graph [label=Administration,
+			margin="3.6,0.7"
+		];
+		head1		 [fixedsize=False,
+			label=Administration,
+			style=invis,
+			width=0.5];
+	}
+	subgraph cluster_0 {
+		graph [label="Sans Département",
+			margin="3.6,0.7"
+		];
+		head0		 [fixedsize=True,
+			label="Sans Département",
+			style=invis,
+			width=0.5];
+		9		 [label="Alexandre Benoit"];
+		10		 [label="Alexandre Chartrand"];
+		12		 [label="Félix-Antoine Lebel"];
+		13		 [label="Guylaine Fecteau"];
+		15		 [label="João Alfredo Gama Batista"];
+		16		 [label="Marie-Michèle Poulin"];
+	}
+	subgraph cluster_4 {
+		graph [label="r&d masques",
+			margin="3.6,0.7"
+		];
+		8		 [fixedsize=False,
+			label="Alessandro Scola",
+			width=0.5];
+	}
+	subgraph cluster_6 {
+		graph [label="R&D",
+			margin="3.6,0.7"
+		];
+		11		 [fixedsize=False,
+			label="Alexandre Ferrera Benevides",
+			width=0.5];
+	}
+	11 -> 8	 [lhead=cluster_4,
+		ltail=cluster_6];
+	1 -> 14;
+}
